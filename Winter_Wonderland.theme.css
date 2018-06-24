@@ -38,7 +38,7 @@ body::after,
     padding: 0 0 0 8px;
     background-color: rgba(0, 0, 0, 0.6) !important;
 }
-body .search-bar {
+.search-bar {
     background-color: transparent!important;
     -webkit-box-shadow: none!important;
     box-shadow: none!important;
