@@ -680,7 +680,7 @@ DIV.theme-dark #friends DIV.friends-table {
     flex: 1;
     overflow-x: hidden;
     overflow-y: scroll;
-    padding: 20px 0 10px 10px;
+    padding: 10px 0 10px 10px;
     user-select: none;
 }
 .guilds-wrapper {
@@ -784,4 +784,11 @@ background-position: center;
 /* hover shadow in servers */
 [class*="theme-"] .member-3W1lQa:hover .content-OzHfo4, .contentHoveredText-2D9B-x {
     background: var(--hover-color);
+}
+DIV.theme-dark DIV.flex-spacer.flex-horizontal {
+    background-color: transparent !important;
+}
+[class*="scrollerThemed-"] [class*="scroller-"]::-webkit-scrollbar-track-piece {
+    background: transparent !important;
+    background-clip: padding-box!important;
 }
