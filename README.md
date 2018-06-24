@@ -8,5 +8,5 @@ Winter Wonderland bd theme is a theme for a [discord](https://discordapp.com/) p
 ![Winter Wonderland light](https://github.com/AutumnClove/Winter-Wonderland-BD-Theme/blob/master/Sample%20Pics/Winter%20Wonder%20Land%20Light.png)
 ### Clean emoji picker
 ![Emoji Picker](https://github.com/AutumnClove/Winter-Wonderland-BD-Theme/blob/master/Sample%20Pics/Emoji%20Picker.png)
-### Spotify effect on left click user popou
+### Spotify effect on left click user popouts
 ![Spotify](https://github.com/AutumnClove/Winter-Wonderland-BD-Theme/blob/master/Sample%20Pics/Spotify.png)
