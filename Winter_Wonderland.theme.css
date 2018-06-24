@@ -804,6 +804,9 @@ DIV.theme-dark DIV.flex-spacer.flex-horizontal {
 .theme-dark .footer-1fjuF6 {
     border-color: transparent !important;
 }
+.bar-3urHkF {
+    background-color: transparent;
+}
 .barInner-3NDaY_ {
     background: linear-gradient(to left, var(--hover-color), var(--main-color)) !important;
     height: 100%;
