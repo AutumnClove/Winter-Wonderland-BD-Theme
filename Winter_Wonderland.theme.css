@@ -5,11 +5,11 @@
 /* IMPORT CSS FROM GITHUB */
 @import url(https://zerthox.github.io/ClearVision/css/ClearVision_v5.min.css);
 
-/*change color and brightness with these settings below */
+/* change color and brightness with these settings below */
 /* I guess some people can't figure this out but to change just adjust */
 /* --hover-color: can use any color format really hsla rgba hex same for */
 /* --main-color: */
-/*If you don't know what color you want use this picker: http://hslpicker.com/ */
+/* If you don't know what color you want use this picker: http://hslpicker.com/ */
 :root {
     --hover-color: hsla(276, 65%, 19%, 1);
     --main-color: hsla(265, 100%, 50%, 1);
@@ -25,8 +25,8 @@ body::after,
 .auth-tiling-bg,
 .invite-modal .invite-splash,
 .radio-theme.light label,
-/*you can choose your own background here for best results use one at least */
-/*1920 x 1080 */
+/* you can choose your own background here for best results use one at least */
+/* 1920 x 1080 */
 .radio-theme.dark label{
     background-image: url('https://www.mexatk.com/wp-content/uploads/2016/05/%D8%B5%D9%88%D8%B1-%D8%AE%D9%84%D9%81%D9%8A%D8%A7%D8%AA-%D9%84%D9%8A%D9%84%D9%8A%D8%A9-%D8%AC%D9%85%D9%8A%D9%84%D8%A9-%D9%88%D9%85%D9%85%D9%8A%D8%B2%D8%A9-%D8%A7%D8%AD%D9%84%D9%8A-%D8%B5%D9%88%D8%B1-%D8%AE%D9%84%D9%81%D9%8A%D8%A7%D8%AA-2.jpg');
     background-size: 1950px 1100px;
@@ -122,7 +122,7 @@ body::after,
 }
 /* end of emoji stuff */
 
-/*borders around people speaking */
+/* borders around people speaking */
 .avatarSpeaking-1wJCNq {
     -webkit-box-shadow: 0 0 0 2px var(--main-color), inset 0 0 0 1.5px #2f3136 !important;
     box-shadow: 0 0 0 2px var(--main-color), inset 0 0 0 1.5px #2f3136 !important;
@@ -174,14 +174,14 @@ body::after,
     background-color: var(--main-color);
 }
 
-/*if you want a lighter or darker context menu(that's the menu that pop's up */
+/* if you want a lighter or darker context menu(that's the menu that pop's up */
 /* on right click) just change 1.0 down .1 until you reach what you want eg */
 /* rgba(0,0,0,0.5) or something */
 .theme-dark .contextMenu-uoJTbz{
     background-color: rgba(0,0,0, 0.8);
 }  
-/*color of the hover in the above menu so when your mouse is on */
-/*an option this is what makes it changes colors */
+/* color of the hover in the above menu so when your mouse is on */
+/* an option this is what makes it changes colors */
 .contextMenu-uoJTbz.theme-dark .itemGroup-oViAgA .item-1XYaYf :hover {
     color: var(--hover-color);
     -webkit-transition: all .15s ease-in-out;
@@ -298,7 +298,7 @@ body::after,
     border-color: #FFC62F;
     color: var(--hover-color);
 }
-/*upload module fix */
+/* upload module fix */
 .uploadModal-2KN6Mm .footer-4pOKm8 .button-primary {
     -webkit-transition: opacity .2s ease-in-out;
     background-color: none;
@@ -353,9 +353,9 @@ body::after,
     perspective: 1000;
     width: 520px;
 }
-/*end of upload module fix */
+/* end of upload module fix */
 
-/*the hover controller for the channels inside of servers */
+/* the hover controller for the channels inside of servers */
 .wrapperDefaultText-3M3F1R:hover, .wrapperDefaultVoice-2ud9mj:hover, .wrapperHoveredText-1PA_Uk:hover, .wrapperHoveredVoice-3tbfNN:hover, .wrapperLockedText-Dsondf:hover, .wrapperLockedVoice-1XZJmE:hover, .wrapperMutedText-34VhKk:hover, .wrapperMutedVoice-2BiLWu:hover, .wrapperUnreadText-1MykVG:hover, .wrapperUnreadVoice-13F9Gg:hover {
     background-color: var(--hover-color);
     border-radius: 25px;
@@ -711,7 +711,7 @@ element.style {
     background-color: rgba(0, 0 ,0, 0.5);
     color: #f6f6f7;
 }
-*/ lets us customize our home icon */
+/* lets us customize our home icon */
 .guilds-wrapper .guilds .home-icon{
 background-image: url("https://i.pinimg.com/736x/5c/df/52/5cdf522c003ac1bc8c4c151bcacee778.jpg");
 color: transparent;
@@ -720,15 +720,15 @@ background-size: 100%;
 background-repeat: space;
 background-position: center;
 }
-*/ gets rid of extra fill-in color on the home icon */
+/* gets rid of extra fill-in color on the home icon */
 .guilds-wrapper .guilds .guild.active:first-of-type .guild-inner {
     background: transparent !important;
 }
-*/ hover shadow in dms */
+/* hover shadow in dms */
 .private-channels .channel:hover a {
     background-color: var(--hover-color);
 }
-*/ hover shadow in servers */
+/* hover shadow in servers */
 [class*="theme-"] .member-3W1lQa:hover .content-OzHfo4, .contentHoveredText-2D9B-x {
     background: var(--hover-color);
 }
