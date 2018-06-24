@@ -51,7 +51,7 @@ body::after,
     transition: border-color .1s ease-in-out;
 }
 .bda-dark .emoji-picker .category, .bda-dark .emojiPicker-3m1S-j .category-2U57w6 {
-    background-color: transparent;
+    background-color: transparent !important;
 }
 .emojiPicker-3m1S-j .category-2U57w6 {
     color: var(--main-color) !important;
