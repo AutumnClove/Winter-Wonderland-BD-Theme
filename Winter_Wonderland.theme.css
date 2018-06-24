@@ -4,7 +4,7 @@
 
 /* IMPORT CSS FROM GITHUB */
 @import url(https://zerthox.github.io/ClearVision/css/ClearVision_v5.min.css);
-
+@import url(https://intrnl.github.io/discordcustomizations/titlebarRevert/dist/themefile.css);
 /* change color and brightness with these settings below */
 /* I guess some people can't figure this out but to change just adjust */
 /* --hover-color: can use any color format really hsla rgba hex same for */
@@ -38,7 +38,7 @@ body::after,
     padding: 0 0 0 8px;
     background-color: rgba(0, 0, 0, 0.6) !important;
 }
-.search-bar {
+body .search-bar {
     background-color: transparent!important;
     -webkit-box-shadow: none!important;
     box-shadow: none!important;
@@ -670,6 +670,18 @@ DIV.theme-dark #friends DIV.friends-table {
 }
 #bd-settingspane-container .ui-switch-wrapper .ui-switch-checkbox:checked+.ui-switch::before {
     transform: translate(0,0) !important;
+}
+.guilds-wrapper .guilds {
+    -moz-user-select: none;
+    -ms-flex: 1;
+    -ms-user-select: none;
+    -webkit-box-flex: 1;
+    -webkit-user-select: none;
+    flex: 1;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 20px 0 10px 10px;
+    user-select: none;
 }
 .guilds-wrapper {
   background-color: transparent !important;
