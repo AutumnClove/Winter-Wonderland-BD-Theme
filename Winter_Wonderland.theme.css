@@ -1,0 +1,734 @@
+//META{"name":"Winter_Wonderland","description":"A mystical, purple theme with customizable colors & background! Based on Clearvision Amethyst.","author":"Winter","version":"1"}*//{}
+/* "Winter Wonderland v1" by @Zerthox */
+/* Based on "Discord Reborn v4.30" by @Omniscient & "DarkMatter" by @Hammock */
+
+/* IMPORT CSS FROM GITHUB */
+@import url(https://zerthox.github.io/ClearVision/css/ClearVision_v5.min.css);
+
+/*change color and brightness with these settings below */
+/* I guess some people can't figure this out but to change just adjust */
+/* --hover-color: can use any color format really hsla rgba hex same for */
+/* --main-color: */
+/*If you don't know what color you want use this picker: http://hslpicker.com/ */
+:root {
+    --hover-color: hsla(276, 65%, 19%, 1);
+    --main-color: hsla(265, 100%, 50%, 1);
+    --background-blur: 0px;
+    --background-brightness: 25%;
+}
+body::after,
+.callout-backdrop,
+.user-popout::before,
+#user-profile-modal .header::before,
+#pubs-container::before,
+.auth-background,
+.auth-tiling-bg,
+.invite-modal .invite-splash,
+.radio-theme.light label,
+/*you can choose your own background here for best results use one at least */
+/*1920 x 1080 */
+.radio-theme.dark label{
+    background-image: url(https://static.zerochan.net/Doki.Doki.Literature.Club%21.full.2212648.jpg);
+    background-size: 1950px 1100px;
+}
+/*emoji picker stuff */
+.emojiPicker-3m1S-j {
+    height: 224px;
+    overflow-x: hidden;
+    padding: 0 0 0 8px;
+    background-color: rgba(0, 0, 0, 0.6) !important;
+}
+.search-bar .search-bar-inner, .search-bar.search-bar-light .search-bar-inner {
+    background-color: rgba(23, 23, 23, 0.3);
+    padding: 0;
+    border: none;
+    -webkit-transition: border-color .1s ease-in-out;
+    transition: border-color .1s ease-in-out;
+}
+.bda-dark .emoji-picker .category, .bda-dark .emojiPicker-3m1S-j .category-2U57w6 {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.emojiPicker-3m1S-j .category-2U57w6 {
+    color: var(--main-color) !important;
+    font-size: 12px;
+    font-weight: 500;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 4px;
+    text-transform: uppercase;
+}
+.bda-dark .emoji-picker .dimmer.visible, .bda-dark .emojiPicker-3m1S-j .dimmer-3iH-5D.visible-3k45bQ {
+    background: rgba(0,0,0,0.6);
+}
+
+.emojiPicker-3m1S-j .dimmer-3iH-5D.visible-3k45bQ {
+    background-color: hsla(0,0%,0%,.6);
+    pointer-events: auto;
+}
+.emojiPicker-3m1S-j .dimmer-3iH-5D {
+    -webkit-transition: background-color .15s ease-in-out;
+    background-color: transparent;
+    border-radius: 8px;
+    height: 100%;
+    pointer-events: none;
+    position: absolute;
+    transition: background-color .15s ease-in-out;
+    width: 100%;
+    z-index: 1;
+}
+.diversitySelector-tmmMv0 .popout-2nUePc {
+    background-color: transparent !important;
+    border: transparent !important;
+}
+.bda-dark .emoji-picker .scroller .emoji-item.selected, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
+    background-color: transparent !important;
+}
+.emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
+    background-color: transparent !important;
+    border-radius: 3px;
+}
+.emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    display: inline-block;
+    height: 28px;
+    line-height: 28px;
+    margin: 2px 0 2px 4px;
+    text-align: center;
+    width: 28px;
+}
+.diversitySelector-tmmMv0 .popout-2nUePc .item-16cXuq:hover {
+    background-color: transparent;
+}
+.diversitySelector-tmmMv0 .item-16cXuq {
+    -ms-flex-negative: 0;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 22px 22px;
+    cursor: pointer;
+    flex-shrink: 0;
+    height: 22px;
+    padding: 4px;
+    width: 22px;
+}
+.bda-dark .emoji-picker .scroller::-webkit-scrollbar, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track-piece, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track-piece {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+.scrollerThemed-2oenus.themeLight-1_DWyY.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerThemed-2oenus.themeLight-1_DWyY.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track {
+    background-color: transparent !important;
+}
+/* end of emoji stuff */
+
+/*borders around people speaking */
+.avatarSpeaking-1wJCNq {
+    -webkit-box-shadow: 0 0 0 2px var(--main-color), inset 0 0 0 1.5px #2f3136 !important;
+    box-shadow: 0 0 0 2px var(--main-color), inset 0 0 0 1.5px #2f3136 !important;
+}
+.avatarDefault-35WC3R, .avatarSpeaking-1wJCNq {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    border-radius: 50%;
+    height: 20px;
+    margin-left: 8px;
+    width: 20px;
+}
+.callAvatarBorder-1D_KaE.voice-2D-tt_.speaking-oCqYMI {
+    -webkit-box-shadow: inset 0 0 0 3px var(--main-color) !important;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 3px var(--main-color) !important;
+}
+.callAvatarBorder-1D_KaE {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.callAvatarBorder-1D_KaE.video-3GgX2M.speaking-oCqYMI {
+    -webkit-box-shadow: inset 0 0 0 2px var(--main-color) !important;
+    border-radius: 3px;
+    box-shadow: inset 0 0 0 2px var(--main-color) !important;
+}
+.callAvatarBorder-1D_KaE {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.callAvatarBorder-1D_KaE {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+/* end of borders around people speaking */
+
+.buttonGreenFilled-6QHNrw, .buttonGreenFilledDefault-_lLQaz:hover{
+    background-color: var(--main-color);
+}
+
+/*if you want a lighter or darker context menu(that's the menu that pop's up */
+/* on right click) just change 1.0 down .1 until you reach what you want eg */
+/* rgba(0,0,0,0.5) or something */
+.theme-dark .contextMenu-uoJTbz{
+    background-color: rgba(0,0,0, 0.8);
+}  
+/*color of the hover in the above menu so when your mouse is on */
+/*an option this is what makes it changes colors */
+.contextMenu-uoJTbz.theme-dark .itemGroup-oViAgA .item-1XYaYf :hover {
+    color: var(--hover-color);
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+}
+  
+.theme-light .chat>.content .messages .message-group .comment .markup {
+    color:lightgray;
+}
+.theme-light .chat>.content .messages a {
+    color: lightgray;
+}
+.theme-light .chat>.content .messages .message-group .comment .mention {
+    color: lightgray;
+}
+/* the little notifaciton next to guilds for unreads */
+.guilds-wrapper .badge {
+    -webkit-animation: none;
+    animation: none;
+    background-color: var(--hover-color);
+}
+.channel-members h2 {
+    color: var(--hover-color) ;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    font-weight: 700;
+    padding: 4px 8px;
+    background-color: transparent ;
+    border: 1px solid;
+    border-color: transparent;
+    border-radius: 3px;
+    width: 190px;
+    margin-left: 15px;
+    text-align: center;
+} 
+.private-channels .search-bar .search-bar-inner {
+   background: var(--main-color);
+}
+.directionRow-3v3tfG {
+    -ms-flex-direction: row;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    flex-direction: row;
+}
+.directionRow-3v3tfG {
+    -ms-flex-direction: row;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    flex-direction: row;
+}
+.theme-dark DIV[class*="channels"][class*="vertical"] {
+    color: rgba(0,0,0,.5);
+}
+[class*="titleBar-"]{
+    background-color: rgba(0, 0, 0, .6);
+    margin-top: 0px;
+    padding-top: 4px;}
+[class*="winButtonMinMax-"]:hover{
+    background-color: var(--hover-color) ;}
+.channelIcon-1KtcMW {
+    color: var(--main-color) ;
+    margin-right: 1px;
+    position: relative;
+    top: 2px;
+}
+
+
+.theme-light .channelName-1G03vu, .theme-light .groupDM-3gzbyG .channelName-1G03vu, .theme-light .groupDMManaged-2z2S1A .channelName-1G03vu, .theme-light .input-autosize-input {
+    color: var(--main-color) !important;
+}
+.userPopout-4pfA0d .headerNormal-1cioxU {
+    background-color: rgba(0,0,0,0.8) ;
+}
+.theme-light .headerNormal-1cioxU .headerName-2N8Pdz, .theme-light .headerNormal-1cioxU .headerTagUsernameNoNickname-1gGsAP {
+    color: var(--hover-color);
+}
+.theme-light .body-3rkFrF {
+    color: var(--hover-color);
+}
+.theme-light .topSectionNormal-2LlRG1 {
+    background: var(--main-color);
+}
+.account {
+    border-top:none;
+    padding:0 15px;
+    background:#19191b;
+    border-top: 2px solid #212121 ;  
+    height: 72px;
+    overflow: visible;
+    z-index: 9;
+    width: 310px;
+    margin-left: -80px;
+    box-sizing: border-box;   
+}
+.ui-standard-sidebar-view, .ui-standard-sidebar-view .sidebar-region, .ui-standard-sidebar-view .content-region {
+    background: rgba(0,0,0,0.2);
+}
+.theme-light .lfg-3xoFkI{
+    background-color: rgba(0,0,0,0.2);
+}
+[class*="card"] {
+     background: none; 
+     border-color: transparent; 
+} 
+.theme-light .card-11ynQk:before {
+    background-color: var(--main-color);
+    border-color: var(--hover-color);
+}
+.theme-light .wrapperDefault-NeXRmD {
+    background-color: var(--main-color);
+}
+.theme-light .wrapperDefault-NeXRmD, .theme-light .wrapperFull-2_7g2- {
+    border-color: #FFC62F;
+    color: var(--hover-color);
+}
+/*upload module fix */
+.uploadModal-2KN6Mm .footer-4pOKm8 .button-primary {
+    -webkit-transition: opacity .2s ease-in-out;
+    background-color: none;
+    color: none;
+    transition: opacity .2s ease-in-out;
+}
+
+.uploadModal-2KN6Mm .footer-4pOKm8 .button {
+    background-color: none;
+    height: 36px;
+    min-width: 84px;
+    padding: 0;
+}
+
+.uploadModal-2KN6Mm .footer-4pOKm8 .button {
+    background-color: none;
+    height: 36px;
+    min-width: 84px;
+    padding: 0;
+}
+
+.uploadModal-2KN6Mm .footer-4pOKm8 {
+    -ms-flex-direction: row;
+    -ms-flex-pack: end;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -webkit-box-pack: end;
+    background-color: transparent;
+    border-radius: 0 0 10px 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.uploadModal-2KN6Mm {
+    -ms-flex-direction: column;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -webkit-filter: blur(0);
+    -webkit-perspective: 1000;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    filter: blur(0);
+    flex-direction: column;
+    min-height: 258px;
+    perspective: 1000;
+    width: 520px;
+}
+/*end of upload module fix */
+
+/*the hover controller for the channels inside of servers */
+.wrapperDefaultText-3M3F1R:hover, .wrapperDefaultVoice-2ud9mj:hover, .wrapperHoveredText-1PA_Uk:hover, .wrapperHoveredVoice-3tbfNN:hover, .wrapperLockedText-Dsondf:hover, .wrapperLockedVoice-1XZJmE:hover, .wrapperMutedText-34VhKk:hover, .wrapperMutedVoice-2BiLWu:hover, .wrapperUnreadText-1MykVG:hover, .wrapperUnreadVoice-13F9Gg:hover {
+    background-color: var(--hover-color);
+    border-radius: 25px;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+}
+/*------------------------------------------------------------------------*/
+.chat > .content .messages .message-group h2 span :hover {
+    color: var(--main-color);
+    transition: all .3s ease-in-out;
+}
+[class*="theme-"] .iconBadge-2dji3k {
+    border-color: transparent;
+}
+.theme-dark .iconBadge-2dji3k {
+    border-color: var(--main-color);
+}
+.iconBadge-2dji3k {
+    -webkit-box-shadow: none;
+    background-color: var(--main-color);
+    border: 2px solid transparent;
+    border-radius: 8px;
+    box-shadow: none;
+    height: 8px;
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    width: 8px;
+}
+
+.chat>.content .messages .divider span, .theme-dark .chat>.content .messages .divider span {
+    color: var(--hover-color) !important;
+    background-color: var(--main-color) !important;
+}
+.container-2lgZY8 {
+    background-color: transparent;
+}
+.theme-dark .members-1998pB {
+    background-color: transparent;
+}
+.container-PNkimc {
+    background-color: transparent;
+    contain: layout;
+    min-height: 0;
+    position: relative;
+}
+.contentSelectedText-3wUhMi {
+    background-color: var(--main-color);
+}
+.contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO:active, .contentSelectedVoice-1WDIBM:active {
+    background-color: rgba(109, 45, 200, 0.5);
+}
+.theme-dark .menu-Sp6bN1 {
+    -webkit-box-shadow: 0 0 1px rgba(0,0,0,.82), 0 1px 4px rgba(0,0,0,.1);
+    background: rgba(0,0,0,0.8);
+    box-shadow: 0 0 1px rgba(0,0,0,.82), 0 1px 4px rgba(0,0,0,.1);
+}
+.userPopout-3XzG_A {
+    -webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,.2), 0 0 0 1px rgba(32,34,37,.6);
+    border-radius: 5px;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,.2), 0 0 0 1px rgba(32,34,37,.6);
+    overflow: hidden;
+    width: 250px;
+    background-color: rgba(0,0,0,0.2);
+}
+[class*="headerSpotify-"] {
+    background: inherit;
+}
+[class*="userPopout-"] [class*="body-"]:not(.bodyAlignCenter-2WUfxb):not(.bodyNormal-2QqN-G) {
+    padding-bottom: 10px;
+    border-bottom: 0px;
+    border-radius: 3px;
+}
+.body-3iLsc4 {
+    background-color: inherit !important;
+    padding: 12px 10px 10px;
+}
+[class*="userPopout-"] [class*="body-"]:not(.bodyAlignCenter-2WUfxb):not(.bodyNormal-2QqN-G) {
+    background: rgba(0, 0, 0, 0.8);
+    padding-bottom: 10px;
+    border-bottom: 0px;
+    border-radius: 3px;
+}
+.contentImagesUserPopout-1vLdRA {
+    margin-left: 10px;
+    padding-top: 10px;
+}
+.assetsLargeImage-eYwpTX {
+    border-radius: 3px;
+}
+.assets-VMAukC {
+    position: relative;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.theme-dark .activityProfile-2bJRaP .headerText-1HLrL7, .theme-dark .activityUserPopout-2yItg2 .headerText-1HLrL7, .theme-light .activityProfile-2bJRaP .headerText-1HLrL7, .theme-light .activityUserPopout-2yItg2 .headerText-1HLrL7 {
+    color: #fff;
+    padding-top: 2px;
+}
+[class*="headerSpotify-"] {
+    background: rgba(0, 0, 0, 0.49);
+}
+
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+    background-color: inherit !important;
+    color: hsla(0,0%,100%,.8);
+}
+[class*="headerPlaying-"] {
+    background: inherit !important;
+}
+.accountDetails-3k9g4n::after {
+    content: "";
+    font-size: 11px;
+    text-align: center;
+    font-weight: 700;
+    bottom: -1px;
+    opacity: 0.3;
+    position: sticky;
+    color: #fff;
+}
+[class*="userPopout-"] [class*="headerNormal-"] {
+    background: inherit !important;
+}
+[class*="theme-"] .member-3W1lQa.popout-open .content-OzHfo4:hover {
+    display:none
+    }
+.container-2Thooq::after {
+  content: "";
+}
+.contextMenu-HLZMGh.theme-dark.invertChildX-2fq7sY {
+    background: rgba(0, 0, 0, 0.6);
+}
+.contextMenu-HLZMGh.theme-dark.invertChildX-2fq7sY .itemGroup-1tL0uz .item-1Yvehc.itemSubMenu-1vN_Yn.itemSubMenuHasScroller-1J2hmF {
+    background: rgba(0, 0, 0, 0.4);
+}
+.contextMenu-HLZMGh.theme-dark.invertChildX-2fq7sY .itemGroup-1tL0uz .item-1Yvehc.itemSubMenu-1vN_Yn {
+    background: rgba(0, 0, 0, 0.4);
+}
+.contextMenu-HLZMGh.theme-dark.invertChildX-2fq7sY .itemGroup-1tL0uz .item-1Yvehc.itemSubMenu-1vN_Yn.itemSubMenuHasScroller-1J2hmF .contextMenu-HLZMGh.theme-dark {
+    background: rgba(0, 0, 0, 0.4);    
+}
+.contextMenu-HLZMGh.theme-dark.invertChildX-2fq7sY .itemGroup-1tL0uz .item-1Yvehc.itemSubMenu-1vN_Yn .contextMenu-HLZMGh.theme-dark .scrollerWrap-2lJEkd.scrollerThemed-2oenus.themeGhostHairline-DBD-2d .scroller-2FKFPG.scroller-2PSBSf {
+    background: rgba(0, 0, 0, 0.4);    
+}
+.contextMenu-HLZMGh.theme-dark { 
+    background: rgba(0, 0, 0, 0.6);    
+}
+.private-channels .channel.selected a {
+    background-color: rgba(79,84,92,.6);
+    color: var(--main-color) !important;
+}
+.private-channels .channel.selected .channel-name {
+    opacity: 1;
+    color: var(--main-color) !important;
+}
+.private-channels header {
+    -webkit-transition: opacity .15s ease;
+    color: var(--main-color) !important;
+    cursor: default;
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 12px;
+    opacity: .3;
+    overflow: hidden;
+    padding: 9px 20px;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    transition: opacity .15s ease;
+    white-space: nowrap;
+}
+/* "Smooth Backgrounds v2.2b" by Zerthox & Hebgbs */
+/* Make the background really clear & more smooth */
+.guilds-wrapper{
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;}
+[class*="title"] [class*="channelName"]{
+    color: #bfbfbf !Important;}
+[class*="title"] [class*="topic"]{
+    font-size: 12px;
+    margin-top: 2px;
+    color: #afafaf !important;}
+.flex-spacer.flex-vertical [class*="channelTextAreaEnabled"] TEXTAREA{
+    color: #d6d6d6;}
+.flex-spacer.flex-vertical [class*="channelTextAreaEnabled"] TEXTAREA::-webkit-input-placeholder{
+    color: hsla(0, 0%, 100%, .2);
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);}
+[class*="autocompleteInner"] [class*="selector-"] [class*="marginLeft8"]{
+    color: rgba(255, 255, 255, .6) !Important;}
+[class*="autocompleteInner"] [class*="selectorSelected-"] [class*="marginLeft8"]{
+    color: #fff !important;}
+[class*="flex"][class*="base"],
+DIV.notice{
+    border-radius: 0 0 0 0 !Important;}
+.notice.notice-facebook{
+    background-color: rgba(53, 80, 137, 0.71) !important;}
+/*  Light appearance */
+.theme-light [class*="autocompleteInner"]{
+    background-color: transparent !important;}
+/* There are other things expressly for light theme / are
+   made specific for dark theme which needs resolution. */
+DIV.theme-light .guilds-wrapper .scroller-wrap,
+DIV.theme-dark .guilds-wrapper .scroller-wrap,
+DIV.theme-light DIV[class*="noWrap"] [class*="channels-"],
+DIV.theme-dark DIV[class*="noWrap"] [class*="channels-"],
+DIV.theme-light DIV.flex-spacer.flex-horizontal,
+DIV.theme-dark DIV.flex-spacer.flex-horizontal,
+DIV[class*="titleWrapper"].theme-light > DIV[class*="title-"],
+DIV[class*="titleWrapper"].theme-dark > DIV[class*="title-"],
+DIV.theme-light DIV.channel-members,
+DIV.theme-dark DIV.channel-members,
+DIV.theme-light .search-results-wrap,
+DIV.theme-dark .search-results-wrap,
+DIV.theme-light #friends [class*="noWrap"][class*="headerBar"],
+DIV.theme-dark #friends [class*="noWrap"][class*="headerBar"],
+DIV.theme-light #friends DIV.friends-table,
+DIV.theme-dark #friends DIV.friends-table {
+    background-color: transparent !important;
+}
+.theme-dark .bar-2Qqk5Z {
+    background: linear-gradient(to left, var(--hover-color), var(--main-color)) !important;
+}
+
+.grabber-3mFHz2 {
+    -webkit-box-shadow: 0 3px 1px 0 rgba(0,0,0,.05), 0 2px 2px 0 rgba(0,0,0,.1), 0 3px 3px 0 rgba(0,0,0,.05);
+    background-color: var(--main-color);
+    border: 1px solid var(--hover-color);
+    border-radius: 3px;
+    box-shadow: 0 3px 1px 0 rgba(0,0,0,.05), 0 2px 2px 0 rgba(0,0,0,.1), 0 3px 3px 0 rgba(0,0,0,.05);
+    cursor: ew-resize;
+    height: 24px;
+    left: 0;
+    margin-left: -5px;
+    margin-top: -13px;
+    top: 50%;
+    width: 10px;
+}
+.theme-dark .bubble-3we2di {
+    background-color: var(--main-color);
+}
+[class*="modal"] [class*="sizeSmall"] [class*="footer"] BUTTON[type="button"] {
+    background-color: var(--main-color) !important;
+}
+.lookLink-9FtZy-.colorRed-1TFJan:hover .contents-18-Yxp {
+    background-image: linear-gradient(0deg,transparent,transparent 1px,transparent 0,transparent 2px,transparent 0) !important;
+}
+.theme-dark .activity-1IYsbk {
+    color: var(--main-color) !important;
+    font-weight: 700 !important;
+}
+.private-channels .channel .channel-activity-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: var(--main-color) !important;
+    font-weight: 800 !important;
+}
+.private-channels .channel.selected .channel-activity strong {
+    color: var(--main-color) !important;
+    font-weight: 700 !important;
+}
+#app-mount .headerSpotify-zpWxgT+.body-3iLsc4,#app-mount .headerSpotify-zpWxgT ~ .footer-1fjuF6{
+    background: var(-hover-color) !important;
+}
+#app-mount .headerSpotify-zpWxgT~div,.headerSpotify-zpWxgT{
+    background: var(--hover-color) !important;
+}
+.ui-switch-wrapper .ui-switch::before {
+    top: 0px !important;
+}
+#bd-settingspane-container .ui-switch-wrapper .ui-switch-checkbox:checked+.ui-switch::before {
+    transform: translate(0,0) !important;
+}
+.guilds-wrapper {
+  background-color: rgba(0,0,0,0.5) !important;
+}
+.theme-dark .activityFeed-28jde9 {
+    background-color: transparent !important;
+}
+DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
+    /* background-color: rgba(0, 0, 0, .71) !Important; */
+    box-shadow: none !important;
+}
+DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+div[class*="flex-"][class*="title-"], #friends div[class*="headerBar"] {
+    background-color: rgba(0, 0, 0, 0.709804);
+    box-shadow: none;
+}
+.title-jXR8lp {
+    font-size: 26px;
+    line-height: 32px;
+}
+.marginTop8-1DLZ1n {
+    margin-top: 8px;
+}
+.weightLight-3heiur {
+    font-weight: 300;
+}
+.white-2qwKC7, .white100-1kM2ad, .white200-3zgO-Z, .white300-9aRwFJ, .white400-18yif1, .white500-2pqdDy {
+    color: #fff;
+}
+.flexCenter-3_1bcw {
+}
+.justifyCenter-3D2jYp {
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.alignCenter-1dQNNs {
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.flex-1O1GKY {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+a, button, div, input, select, span, textarea {
+    outline: 0;
+}
+element.style {
+}
+.lookInverted-2D7oAl.colorGreen-29iAKY {
+    background-color: transparent !important;
+}
+.lookInverted-2D7oAl.colorGreen-29iAKY:hover {
+    background-color: var(--hover-color) !important;
+}
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+    background-color: rgba(0, 0 ,0, 0.5);
+    color: #f6f6f7;
+}
+.theme-dark .lookFilled-1Gx00P.hoverBrand-1_Fxlk.hasHover-3X1-zV:hover, .theme-light .lookFilled-1Gx00P.hoverBrand-1_Fxlk.hasHover-3X1-zV:hover {
+    background-color: var(--hover-color);
+    color: #fff;
+}
+.app button {
+    cursor: pointer;
+}
+.headerButtonColor-G7_f-V {
+    background: rgba(0,0,0, 0.5);
+    color: #fff;
+}
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:active, .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover {
+    background-color: var(--hover-color);
+}
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+    background-color: rgba(0, 0 ,0, 0.5);
+    color: #f6f6f7;
+}
+*/ lets us customize our home icon */
+.guilds-wrapper .guilds .home-icon{
+background-image: url("https://78.media.tumblr.com/9adfc298a7e9acc3204a2f89472f35e5/tumblr_okk8iyd8zh1w3bg89o1_1280.jpg");
+color: transparent;
+background-color: transparent;
+background-size: 100%;
+background-repeat: space;
+background-position: center;
+}
+*/ gets rid of extra fill-in color on the home icon */
+.guilds-wrapper .guilds .guild.active:first-of-type .guild-inner {
+    background: transparent !important;
+}
+*/ hover shadow in dms */
+.private-channels .channel:hover a {
+    background-color: var(--hover-color);
+}
+*/ hover shadow in servers */
+[class*="theme-"] .member-3W1lQa:hover .content-OzHfo4, .contentHoveredText-2D9B-x {
+    background: var(--hover-color);
+}
