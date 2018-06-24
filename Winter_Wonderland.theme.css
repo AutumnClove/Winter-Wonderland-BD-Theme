@@ -38,6 +38,11 @@ body::after,
     padding: 0 0 0 8px;
     background-color: rgba(0, 0, 0, 0.6) !important;
 }
+.search-bar {
+    background-color: transparent!important;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
 .search-bar .search-bar-inner, .search-bar.search-bar-light .search-bar-inner {
     background-color: rgba(23, 23, 23, 0.3);
     padding: 0;
@@ -46,7 +51,7 @@ body::after,
     transition: border-color .1s ease-in-out;
 }
 .bda-dark .emoji-picker .category, .bda-dark .emojiPicker-3m1S-j .category-2U57w6 {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: transparent;
 }
 .emojiPicker-3m1S-j .category-2U57w6 {
     color: var(--main-color) !important;
