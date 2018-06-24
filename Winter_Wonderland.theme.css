@@ -732,8 +732,3 @@ background-position: center;
 [class*="theme-"] .member-3W1lQa:hover .content-OzHfo4, .contentHoveredText-2D9B-x {
     background: var(--hover-color);
 }
-[class*="titleBar-"]{
-    background-color: rgba(0, 0, 0, 0.3) !Important;
-    margin-top: 0px !Important;
-    padding-top: 4px !Important;
-}
