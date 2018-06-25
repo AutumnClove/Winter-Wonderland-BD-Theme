@@ -841,6 +841,27 @@ DIV.theme-dark DIV.flex-spacer.flex-horizontal {
 .anchor-3Z-8Bb:hover {
     text-decoration: none;
 }
+.ace-monokai {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #F8F8F2;
+}
+.ace-monokai .ace_gutter {
+    background-color: rgba(0, 0, 0, 1);
+}
+.discriminator {
+    background: rgba(0,0,0,0)!important;
+    color: #fff!important;
+    font-size: 14px!important;
+    font-weight: 700!important;
+}
+.discriminator:hover {
+    background: rgba(0,0,0,0)!important;
+}
+[class*="userPopout-"] [class*="body-"]:not(.bodyAlignCenter-2WUfxb):not(.bodyNormal-2QqN-G) {
+    background: transparent;
+    padding-bottom: 10px;
+    border-bottom: 0px;
+}
 .statusProfile-3ynqtt {
     background-size: 12px;
     bottom: 3px;
