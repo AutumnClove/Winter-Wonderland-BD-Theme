@@ -872,23 +872,23 @@ DIV.theme-dark DIV.flex-spacer.flex-horizontal {
     top: 0px;
 }
 .statusProfile-3ynqtt.online-2S838R {
-    -webkit-box-shadow: inset 0 0 0 3px rgba(180,225,205,.6);
-    box-shadow: inset 0 0 0 3px rgba(180,225,205,.6);
+    -webkit-box-shadow: inset 0 0 0 3px #43b581;
+    box-shadow: inset 0 0 0 3px #43b581;
     background-color: transparent;
 }
 .statusProfile-3ynqtt.idle-3DEnRT {
-    -webkit-box-shadow: inset 0 0 0 3px hsla(37,96%,82%,.6);
-    box-shadow: inset 0 0 0 3px hsla(37,96%,82%,.6);
+    -webkit-box-shadow: inset 0 0 0 3px #faa61a;
+    box-shadow: inset 0 0 0 3px #faa61a;
     background-color: transparent;
 }
 .statusProfile-3ynqtt.dnd-1_xrcq {
-    -webkit-box-shadow: inset 0 0 0 3px hsla(0,85%,84%,.6);
-    box-shadow: inset 0 0 0 3px hsla(0,85%,84%,.6);
+    -webkit-box-shadow: inset 0 0 0 3px #f04747;
+    box-shadow: inset 0 0 0 3px #f04747;
     background-color: transparent;
 }
 .statusProfile-3ynqtt.invisible-1kp8Z0, .statusProfile-3ynqtt.offline-3qoTek, .statusProfile-3ynqtt.unknown-Ms2zdV {
-    -webkit-box-shadow: inset 0 0 0 3px rgba(199,204,209,.6);
-    box-shadow: inset 0 0 0 2px rgba(199,204,209,.6);
+    -webkit-box-shadow: inset 0 0 0 3px #747f8d;
+    box-shadow: inset 0 0 0 2px #747f8d;
     background-color: transparent;
 }
 .maskProfile-1ObLFT {
