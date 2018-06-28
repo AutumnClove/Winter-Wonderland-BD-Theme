@@ -340,6 +340,12 @@ body::after,
     color: var(--hover-color);
 }
 /* upload module fix */
+.uploadModal-2ifh8j {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.uploadModal-2ifh8j .footer-3mqk7D {
+    background-color: transparent;
+}
 .uploadModal-2KN6Mm .footer-4pOKm8 .button-primary {
     -webkit-transition: opacity .2s ease-in-out;
     background-color: none;
