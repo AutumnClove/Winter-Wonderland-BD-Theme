@@ -894,3 +894,7 @@ DIV.theme-dark DIV.flex-spacer.flex-horizontal {
 .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track {
     background-color: transparent;
 }
+.theme-dark .listRow-hutiT_:hover {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(106, 0, 255, .5));
+    color: #b9bbbe;
+}
