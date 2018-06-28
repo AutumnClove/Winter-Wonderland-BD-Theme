@@ -887,3 +887,7 @@ DIV.theme-dark DIV.flex-spacer.flex-horizontal {
     border-width: 2px !important;
     border-color: var(--main-color) !important;
 }
+.avatar-large {
+    position: relative;
+    top: 2px;
+}
