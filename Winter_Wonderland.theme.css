@@ -884,6 +884,9 @@ DIV.theme-dark DIV.flex-spacer.flex-horizontal {
     color: var(--main-color) !important;
     background-color: transparent !important;
 }
+.chat form {
+    box-shadow: none !important;
+}
 .content-region #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls {
     background: transparent;
     box-shadow: inset 0 1px 0 0 transparent;
