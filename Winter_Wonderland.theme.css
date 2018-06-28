@@ -841,7 +841,6 @@ DIV.theme-dark DIV.flex-spacer.flex-horizontal {
 .anchor-3Z-8Bb:hover {
     text-decoration: none;
 }
-<<<<<<< HEAD
 .ace-monokai {
     background-color: rgba(0, 0, 0, 0.1);
     color: #F8F8F2;
@@ -863,39 +862,3 @@ DIV.theme-dark DIV.flex-spacer.flex-horizontal {
     padding-bottom: 10px;
     border-bottom: 0px;
 }
-.statusProfile-3ynqtt {
-    background-size: 12px;
-    bottom: 3px;
-    height: 90px;
-    position: absolute;
-    right: 0px;
-    width: 90px;
-    top: 0px;
-}
-.statusProfile-3ynqtt.online-2S838R {
-    -webkit-box-shadow: inset 0 0 0 3px #43b581;
-    box-shadow: inset 0 0 0 3px #43b581;
-    background-color: transparent;
-}
-.statusProfile-3ynqtt.idle-3DEnRT {
-    -webkit-box-shadow: inset 0 0 0 3px #faa61a;
-    box-shadow: inset 0 0 0 3px #faa61a;
-    background-color: transparent;
-}
-.statusProfile-3ynqtt.dnd-1_xrcq {
-    -webkit-box-shadow: inset 0 0 0 3px #f04747;
-    box-shadow: inset 0 0 0 3px #f04747;
-    background-color: transparent;
-}
-.statusProfile-3ynqtt.invisible-1kp8Z0, .statusProfile-3ynqtt.offline-3qoTek, .statusProfile-3ynqtt.unknown-Ms2zdV {
-    -webkit-box-shadow: inset 0 0 0 3px #747f8d;
-    box-shadow: inset 0 0 0 2px #747f8d;
-    background-color: transparent;
-}
-.maskProfile-1ObLFT {
-    -webkit-mask: url(/assets/ee28e449f86121bee152231e3ce50839.svg);
-    mask: url(/assets/ee28e449f86121bee152231e3ce50839.svg);
-    -webkit-mask-size: 1.5%;
-}
-=======
->>>>>>> parent of 9f3315f...  Recreation of the RadialStatus by Zerobos but for servers (#4)
