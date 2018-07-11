@@ -412,6 +412,9 @@ body::after,
     color: var(--main-color);
     transition: all .3s ease-in-out;
 }
+.chat > .content .messages .message-group:not(.has-divider) {
+    border-bottom-color: transparent;
+}
 [class*="theme-"] .iconBadge-2dji3k {
     border-color: transparent;
 }
