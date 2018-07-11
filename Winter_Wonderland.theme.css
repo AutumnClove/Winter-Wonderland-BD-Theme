@@ -163,7 +163,7 @@ body::after,
 }
 /* end of emoji stuff */
 
-/* borders around people speaking */
+/* Some vc stuff */
 .avatarSpeaking-1wJCNq {
     -webkit-box-shadow: 0 0 0 2px var(--main-color), inset 0 0 0 1.5px #2f3136 !important;
     box-shadow: 0 0 0 2px var(--main-color), inset 0 0 0 1.5px #2f3136 !important;
@@ -209,12 +209,15 @@ body::after,
     right: 0;
     top: 0;
 }
+.theme-dark .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r {
+    background-color: transparent;
+    border-color: transparent;
+}
 /* end of borders around people speaking */
 
 .buttonGreenFilled-6QHNrw, .buttonGreenFilledDefault-_lLQaz:hover{
     background-color: var(--main-color);
 }
-
 /* if you want a lighter or darker context menu(that's the menu that pop's up */
 /* on right click) just change 1.0 down .1 until you reach what you want eg */
 /* rgba(0,0,0,0.5) or something */
@@ -228,7 +231,6 @@ body::after,
     -webkit-transition: all .15s ease-in-out;
     transition: all .15s ease-in-out;
 }
-  
 .theme-light .chat>.content .messages .message-group .comment .markup {
     color:lightgray;
 }
@@ -289,8 +291,6 @@ body::after,
     position: relative;
     top: 2px;
 }
-
-
 .theme-light .channelName-1G03vu, .theme-light .groupDM-3gzbyG .channelName-1G03vu, .theme-light .groupDMManaged-2z2S1A .channelName-1G03vu, .theme-light .input-autosize-input {
     color: var(--main-color) !important;
 }
@@ -366,7 +366,6 @@ body::after,
     min-width: 84px;
     padding: 0;
 }
-
 .uploadModal-2KN6Mm .footer-4pOKm8 {
     -ms-flex-direction: row;
     -ms-flex-pack: end;
@@ -382,7 +381,6 @@ body::after,
     justify-content: flex-end;
     padding: 10px;
 }
-
 .uploadModal-2KN6Mm {
     -ms-flex-direction: column;
     -webkit-box-direction: normal;
@@ -625,7 +623,6 @@ DIV.theme-dark #friends DIV.friends-table {
 .theme-dark .bar-2Qqk5Z {
     background: linear-gradient(to left, var(--hover-color), var(--main-color)) !important;
 }
-
 .grabber-3mFHz2 {
     -webkit-box-shadow: 0 3px 1px 0 rgba(0,0,0,.05), 0 2px 2px 0 rgba(0,0,0,.1), 0 3px 3px 0 rgba(0,0,0,.05);
     background-color: var(--main-color);
