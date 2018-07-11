@@ -552,7 +552,6 @@ body::after,
 }
 .private-channels .channel.selected a {
     background-color: rgba(79,84,92,.6);
-    color: var(--main-color) !important;
 }
 .private-channels .channel.selected .channel-name {
     opacity: 1;
