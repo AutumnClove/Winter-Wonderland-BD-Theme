@@ -940,3 +940,41 @@ DIV.theme-dark DIV.flex-spacer.flex-horizontal {
     mask: url(/assets/ee28e449f86121bee152231e3ce50839.svg);
     -webkit-mask-size: 1.5%;
 }
+.isMentionedCozy-3isp7y:after {
+    background: rgba(250,166,26,.2);
+    border-left: 4px solid var(--main-color);
+    border-radius: 3px 0 0 3px;
+    bottom: 0;
+    content: " ";
+    left: -6px;
+    position: absolute;
+    top: 0;
+    width: 2px;
+}
+.theme-dark .markup-2BOw-j pre {
+    background: rgba(0,0,0,0.5);
+}
+.theme-dark .markup-2BOw-j code {
+    background: transparent;
+}
+.mention {
+    color: var(--hover-color)!important;
+    background: rgba(36, 36, 36, 0.1)!important;
+    padding: 1px 4px;
+    border-radius: 6px;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    white-space: nowrap;
+}
+.theme-dark .hljs-doctag, .theme-dark .hljs-literal, .theme-dark .hljs-meta .hljs-meta-string, .theme-dark .hljs-number, .theme-dark .hljs-regexp, .theme-dark .hljs-string {
+    color: #2aa198 !important;
+}
+.theme-dark .dividerEnabled-2TTlcf {
+    border-bottom-color: transparent;
+}
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
+    background-color: transparent;
+}
