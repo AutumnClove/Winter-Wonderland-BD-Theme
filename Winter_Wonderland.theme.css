@@ -978,3 +978,20 @@ DIV.theme-dark DIV.flex-spacer.flex-horizontal {
 .theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
     background-color: transparent;
 }
+.theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC, .userSettingsVoice-iwdUCU .media-engine-video {
+    border-color: transparent;
+}
+.userSettingsVoice-iwdUCU .previewContainer-37c2Si {
+    box-shadow: 0 0 0 transparent;
+}
+/*Overlay Notifications Section*/
+.selected-mKYnfr.option-n0icdO {
+    background-color: var(--main-color);
+    border-color: transparent !important;
+ 
+}
+
+.wrapper-3jrx9n{
+    border: transparent;
+    box-shadow: transparent !important;
+}
