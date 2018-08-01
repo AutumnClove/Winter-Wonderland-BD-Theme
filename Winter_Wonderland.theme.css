@@ -995,3 +995,26 @@ DIV.theme-dark DIV.flex-spacer.flex-horizontal {
     border: transparent;
     box-shadow: transparent !important;
 }
+.content-column [class*="slider"]>[class*="bar"], .sensitivity [class*="slider"].slider-bar:not(.speaking) {
+    background: transparent !important;
+}
+.theme-dark .select-2TCrqx .Select-menu-outer {
+    -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+    background: rgba(0,0,0,.1);
+    border-color: rgba(0,0,0,0.1);
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+}
+[class*="theme-"] .guildsWrapper-5TJh6A {
+    background-color: transparent;
+}
+::selection {
+    color: blue important;
+    background: blue !important;
+}
+.theme-dark .card-FDVird:before {
+    background-color: rgba(0,0,0,0.1);
+    border-color: transparent;
+}
+.theme-dark .user-settings-games .not-detected, .theme-light .user-settings-games .not-detected {
+    background-color: transparent;
+}
