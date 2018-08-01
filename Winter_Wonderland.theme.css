@@ -785,7 +785,8 @@ element.style {
     background-image: url(https://i.pinimg.com/736x/5c/df/52/5cdf522c003ac1bc8c4c151bcacee778.jpg) !important;;
 }
 .homeIcon-1FoKUJ:hover {
-    /* background: none; */
+    background-image: url(https://i.pinimg.com/736x/5c/df/52/5cdf522c003ac1bc8c4c151bcacee778.jpg);
+    background-size: 50px;
 }
 /* hover shadow in dms */
 .private-channels .channel:hover a {
