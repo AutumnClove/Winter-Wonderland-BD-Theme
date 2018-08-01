@@ -614,8 +614,8 @@ DIV.notice{
     background-color: transparent !important;}
 /* There are other things expressly for light theme / are
    made specific for dark theme which needs resolution. */
-DIV.theme-light .guilds-wrapper .scroller-wrap,
-DIV.theme-dark .guilds-wrapper .scroller-wrap,
+DIV.theme-light .guilds-wrapper .guildsWrapper-5TJh6A,
+DIV.theme-dark .guilds-wrapper .guildsWrapper-5TJh6A,
 DIV.theme-light DIV[class*="noWrap"] [class*="channels-"],
 DIV.theme-dark DIV[class*="noWrap"] [class*="channels-"],
 DIV.theme-light DIV.flex-spacer.flex-horizontal,
