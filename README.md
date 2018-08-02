@@ -10,3 +10,5 @@ Winter Wonderland bd theme is a theme for a [discord](https://discordapp.com/) p
 ![Emoji Picker](https://github.com/AutumnClove/Winter-Wonderland-BD-Theme/blob/master/Sample%20Pics/Emoji%20Picker.png)
 ### Special Spotify user popouts
 ![Spotify](https://github.com/AutumnClove/Winter-Wonderland-BD-Theme/blob/master/Sample%20Pics/Spotify.png)
+### Up to date game launcher
+![Game Launcher](https://github.com/AutumnClove/Winter-Wonderland-BD-Theme/blob/master/Sample%20Pics/Game%20Launcher.png)
