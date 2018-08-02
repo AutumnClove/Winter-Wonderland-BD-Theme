@@ -1114,3 +1114,6 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
     width: 18px;
     z-index: 2;
 }
+[class*="theme-"]  .activityActivityFeed-3xysim .content-3JfFJh, [class*="theme-"] .activityActivityFeed-3xysim .details-38sfDr {
+    color: var(--main-color);
+}
