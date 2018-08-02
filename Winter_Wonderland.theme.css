@@ -1098,10 +1098,17 @@ DIV.theme-dark DIV.flex-spacer.flex-horizontal {
     color: var(--main-color);
 }
 .theme-dark .dockItem-2kQDqg:hover {
+    border-top-color: transparent;
+    color: var(--main-color);
+}
+.theme-light .dockItem-2kQDqg:hover {
     background-color: transparent;
 }
 .theme-dark .headerText-2niCs_ {
     border-top-color: transparent;
+    color: var(--main-color);
+}
+.theme-dark .dockItemText-3qYREY {
     color: var(--main-color);
 }
 .searchBarIcon-1J6sKG .icon-3cZ1F_ {
