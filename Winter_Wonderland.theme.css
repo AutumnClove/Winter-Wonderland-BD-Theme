@@ -1037,3 +1037,35 @@ DIV.theme-dark DIV.flex-spacer.flex-horizontal {
     background-color: transparent;
     border-color: transparent;
 }
+.friendsOnline-_wi_fM.da-friendsOnline {
+    background: var(--main-color);
+    border-radius: 25px;
+    color: #DCDCDC;
+    text-transform: uppercase;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    overflow: visible;
+    cursor: default;
+}
+.theme-dark .headerText-2niCs_ {
+    border-top-color: transparent;
+    color: #dcddde;
+}
+.theme-dark .playTime-2SuPqW {
+    color: var(--main-color);
+}
+.theme-dark .username-XRo90I {
+    color: var(--main-color);
+}
+.theme-dark .tag-10JqWu {
+    color: var(--main-color);
+}
+.discriminator {
+    background: rgba(0,0,0,0)!important;
+    color: var(--main-color)!important;
+    font-size: 14px!important;
+    font-weight: 700!important;
+}
+.theme-dark .discriminator-pIKHPn, .theme-dark .playTime-1laRtO {
+    color: var(--main-color);
+}
