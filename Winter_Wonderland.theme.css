@@ -1069,3 +1069,38 @@ DIV.theme-dark DIV.flex-spacer.flex-horizontal {
 .theme-dark .discriminator-pIKHPn, .theme-dark .playTime-1laRtO {
     color: var(--main-color);
 }
+.theme-light .dividerEnabled-2TTlcf {
+    border-bottom-color: transparent;
+}
+.theme-light .username-XRo90I {
+    color: var(--main-color);
+}
+.theme-light .playTime-2SuPqW {
+    color: var(--main-color);
+}
+.theme-light .dockItemText-3qYREY {
+    color: var(--main-color);
+}
+.theme-light .discriminator-1Kma2g {
+    color: var(--main-color) !important;
+}
+.theme-light .headerText-2niCs_ {
+    border-top-color: transparent;
+    color: var(--main-color);
+}
+.theme-light .tag-10JqWu {
+    color: var(--main-color);
+}
+.theme-light .discriminator-pIKHPn, .theme-light .playTime-1laRtO {
+    color: var(--main-color) !important;
+}
+.theme-dark .dockItemText-3qYREY {
+    color: var(--main-color);
+}
+.theme-dark .dockItem-2kQDqg:hover {
+    background-color: transparent;
+}
+.theme-dark .headerText-2niCs_ {
+    border-top-color: transparent;
+    color: var(--main-color);
+}
