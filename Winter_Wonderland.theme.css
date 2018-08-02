@@ -536,9 +536,6 @@ input:focus {
 [class*="userPopout-"] [class*="headerNormal-"] {
     background: inherit !important;
 }
-[class*="theme-"] .member-3W1lQa.popout-open .content-OzHfo4:hover {
-    display:none
-    }
 .container-2Thooq::after {
   content: "";
 }
