@@ -1117,3 +1117,6 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
 [class*="theme-"]  .activityActivityFeed-3xysim .content-3JfFJh, [class*="theme-"] .activityActivityFeed-3xysim .details-38sfDr {
     color: var(--main-color);
 }
+[class*="theme-"] .chat>.content .messages a {
+    color: var(--main-color);
+}
