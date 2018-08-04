@@ -1149,3 +1149,18 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
 [class*="theme-"] .divider-3gKybi.dividerRed-MKoLlr>span {
     color: var(--main-color);
 }
+[class*="theme-"] .chat-3bRxxu, [class*="theme-"] .content-yTz4x3 {
+    background-color: transparent;
+}
+[class*="theme-"] .divider-3gKybi:not(.dividerRed-MKoLlr) span {
+    color: rgba(255, 255, 255, 0.8);
+    background: transparent;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 10px 0px;
+    border-radius: 3px;
+    opacity: 1;
+    padding: 5px 15px;
+    width: 100%;
+    text-align: center;
+}
