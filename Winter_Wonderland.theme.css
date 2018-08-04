@@ -1126,7 +1126,7 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
     border-radius: 5px;
     margin: 10px 0 30px;
 }
-[class*="theme-"] .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3 {
+[class*="theme-"] .chat-3bRxxu, [class*="theme-"] .chat-3bRxxu form, [class*="theme-"] .content-yTz4x3 {
     background-color: transparent;
 }
 [class*="theme-"] .messagesWrapper-3lZDfY {
