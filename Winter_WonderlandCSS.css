@@ -1356,8 +1356,8 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
 }
 
 [class*="theme-"] .divider-3gKybi:not(.dividerRed-MKoLlr) span {
-  color: rgba(255, 255, 255, 0.8);
-  background: transparent;
+  color: var(--main-color);
+  background: transparent !important;
   font-size: 12px;
   text-transform: uppercase;
   margin: 10px 0px;
