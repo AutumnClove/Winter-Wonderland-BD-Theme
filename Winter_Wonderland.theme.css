@@ -1,10 +1,10 @@
-//META{"name":"Winter_Wonderland","description":"A mystical, purple theme with customizable colors & background! Based on Clearvision Amethyst.","author":"Winter","version":"1.0.1"}*//{}
+//META{"name":"Winter_Wonderland","description":"A mystical, purple theme with customizable colors & background! Based on Clearvision Amethyst.","author":"Winter","version":"1.0.3"}*//{}
 /* "Winter Wonderland v1" by @Winter */
 /* Based on "Discord Reborn v4.30" by @Omniscient, "Clearvision Amethyst" by @Zerthox & "DarkMatter" by @Hammock */
 
 /* IMPORT CSS FROM GITHUB */
 @import url(https://zerthox.github.io/ClearVision/css/ClearVision_v5.min.css);
-@import url(https://autumnclove.github.io/Winter-Wonderland-BD-Theme/Winter_WonderlandCSS.css);
+@import url(https://autumnclove.github.io/Winter-Wonderland-BD-Theme/Winter_Wonderland_min.css);
 @import url(https://intrnl.github.io/discordcustomizations/titlebarRevert/dist/themefile.css);
 /* change color and brightness with these settings below */
 /* I guess some people can't figure this out but to change just adjust */
