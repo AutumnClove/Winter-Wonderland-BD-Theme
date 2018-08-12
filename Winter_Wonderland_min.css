@@ -1380,3 +1380,8 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
   padding: 40px;
   width: 480px;
 }
+
+.theme-dark .messageGroupBlocked-3wrQQX {
+    background: transparent;
+    border-color: transparent;
+}
