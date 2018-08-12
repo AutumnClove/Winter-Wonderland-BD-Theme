@@ -1125,11 +1125,11 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
 }
 
 [class*="theme-"] .markup-2BOw-j pre {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.5) !important;
 }
 
 [class*="theme-"] .markup-2BOw-j code {
-  background: transparent;
+  background: transparent !important;
 }
 
 .mention {
