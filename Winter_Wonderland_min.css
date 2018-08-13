@@ -1400,3 +1400,7 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
     background-color: transparent;
     border-color: transparent;
 }
+
+[class*="theme-"] .container-2x5lvQ section, .container-2x5lvQ header {
+    background-color: rgba(0,0,0,0.8);
+}
