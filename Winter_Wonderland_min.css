@@ -1195,11 +1195,6 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
   background: blue !important;
 }
 
-[class*="theme-"] .card-FDVird:before {
-  background-color: rgba(0, 0, 0, 0.1);
-  border-color: transparent;
-}
-
 [class*="theme-"] .user-settings-games .not-detected, [class*="theme-"] .user-settings-games .not-detected {
   background-color: transparent;
 }
@@ -1399,4 +1394,9 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
 [class*="theme-"] .publisher-2ZxPEd {
     border-bottom: 1px solid rgba(47,49,54,.6);
     color: var(--hover-color);
+}
+
+[class*="theme-"] .card-FDVird:before {
+    background-color: transparent;
+    border-color: transparent;
 }
