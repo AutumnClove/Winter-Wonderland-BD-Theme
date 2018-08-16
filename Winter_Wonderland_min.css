@@ -1410,17 +1410,17 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
   text-align: left;
 }
 
-[class*=theme-] .headerBar-UHpsPw {
+[class*="theme-"] .headerBar-UHpsPw {
   -webkit-box-shadow: none;
   background: transparent;
   box-shadow: none;
 }
 
-[class*=theme-] .playersHeaderLine-2luL7r {
+[class*="theme-"] .playersHeaderLine-2luL7r {
   background-color: transparent;
 }
 
-[class*=theme-] .sectionLine-JjseS9 {
+[class*="theme-"] .sectionLine-JjseS9 {
   background-color: transparent;
 }
 
@@ -1432,29 +1432,29 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
   color: #4f545c;
 }
 
-[class*=theme-] .player-1kJMbj {
+[class*="theme-"] .player-1kJMbj {
     border-bottom-color: transparent;
 }
 
-[class*=theme-] .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV:hover {
+[class*="theme-"] .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV:hover {
     background-color: var(--main-color);
     color: #fff;
 }
 
-[class*=theme-] .headerCell-3L6rFG {
+[class*="theme-"] .headerCell-3L6rFG {
     border-left-color: transparent;
 }
 
-[class*=theme-] .header-39GIC8 {
+[class*="theme-"] .header-39GIC8 {
     border-bottom-color: transparent;
     color: #b9bbbe;
 }
 
-[class*=theme-] .channels-wrap [class*="scroller-"] ul .channel.selected, .theme-light .private-channels .channel.selected, .theme-light .private-channels .search-result.selected, .theme-light .private-channels .search-result:hover, .theme-light .channels-wrap [class*="scroller-"] .channel-text.selected, .theme-light #rtc-debug-modal #users-section .user-list li.selected {
+[class*="theme-"] .channels-wrap [class*="scroller-"] ul .channel.selected, .theme-light .private-channels .channel.selected, .theme-light .private-channels .search-result.selected, .theme-light .private-channels .search-result:hover, .theme-light .channels-wrap [class*="scroller-"] .channel-text.selected, .theme-light #rtc-debug-modal #users-section .user-list li.selected {
     background: transparent;
 }
 
-[class*=theme-] .row-ZLfFhY {
+[class*="theme-"] .row-ZLfFhY {
     color: black;
 }
 /* ===================================================================================================================================================================================================================================================== */
