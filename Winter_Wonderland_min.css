@@ -1076,12 +1076,6 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
   background-color: transparent;
 }
 
-.maskProfile-1ObLFT {
-  -webkit-mask: url(/assets/ee28e449f86121bee152231e3ce50839.svg);
-  mask: url(/assets/ee28e449f86121bee152231e3ce50839.svg);
-  -webkit-mask-size: 1.5%;
-}
-
 .isMentionedCozy-3isp7y:after {
   background: rgba(250, 166, 26, .2);
   border-left: 4px solid var(--main-color);
