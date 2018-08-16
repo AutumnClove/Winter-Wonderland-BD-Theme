@@ -1453,6 +1453,10 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
 .theme-light .channels-wrap [class*="scroller-"] ul .channel.selected, .theme-light .private-channels .channel.selected, .theme-light .private-channels .search-result.selected, .theme-light .private-channels .search-result:hover, .theme-light .channels-wrap [class*="scroller-"] .channel-text.selected, .theme-light #rtc-debug-modal #users-section .user-list li.selected {
     background: transparent;
 }
+
+.theme-light .row-ZLfFhY {
+    color: black;
+}
 /* ===================================================================================================================================================================================================================================================== */
 /* Other fixes for ClearVision */
 /* General */
