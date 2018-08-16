@@ -1,4 +1,4 @@
-//META{"name":"Winter_Wonderland","description":"A mystical, purple theme with customizable colors & background! Based on Clearvision Amethyst.","author":"Winter","version":"1.0.3"}*//{}
+//META{"name":"Winter_Wonderland","description":"A mystical, purple theme with customizable colors & background! Based on Clearvision Amethyst.","author":"Winter","version":"1.0.4"}*//{}
 /* "Winter Wonderland v1" by @Winter */
 /* Based on "Discord Reborn v4.30" by @Omniscient, "Clearvision Amethyst" by @Zerthox & "DarkMatter" by @Hammock */
 
@@ -25,10 +25,9 @@ body::after,
 .auth-background,
 .auth-tiling-bg,
 .invite-modal .invite-splash,
-.radio-theme.light label,
 /* you can choose your own background here for best results use one at least */
 /* 1920 x 1080 */
-.radio-theme.dark label{
+.radio-theme.light label, .radio-theme.dark label{
     background-image: url('https://www.mexatk.com/wp-content/uploads/2016/05/%D8%B5%D9%88%D8%B1-%D8%AE%D9%84%D9%81%D9%8A%D8%A7%D8%AA-%D9%84%D9%8A%D9%84%D9%8A%D8%A9-%D8%AC%D9%85%D9%8A%D9%84%D8%A9-%D9%88%D9%85%D9%85%D9%8A%D8%B2%D8%A9-%D8%A7%D8%AD%D9%84%D9%8A-%D8%B5%D9%88%D8%B1-%D8%AE%D9%84%D9%81%D9%8A%D8%A7%D8%AA-2.jpg');
     background-size: 1950px 1100px;
 }

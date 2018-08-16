@@ -660,56 +660,28 @@ input:focus {
 /* "Smooth Backgrounds v2.2b" by Zerthox & Hebgbs */
 
 /* Make the background really clear & more smooth */
-
-.guilds-wrapper {
-  -webkit-box-shadow: none !important;
-  box-shadow: none !important;
+DIV.theme-light .guildsWrapper-5TJh6A,
+DIV.theme-dark .guildsWrapper-5TJh6A,
+DIV.theme-light .chat-3bRxxu,
+DIV.theme-dark .chat-3bRxxu,
+DIV.theme-light.content-yTz4x3,
+DIV.theme-dark .content-yTz4x3,
+DIV.theme-light DIV[class*="noWrap"] [class*="channels-"],
+DIV.theme-dark DIV[class*="noWrap"] [class*="channels-"],
+DIV.theme-light DIV.flex-spacer.flex-horizontal,
+DIV.theme-dark DIV.flex-spacer.flex-horizontal,
+DIV[class*="titleWrapper"].theme-light > DIV[class*="title-"],
+DIV[class*="titleWrapper"].theme-dark > DIV[class*="title-"],
+DIV.theme-light DIV.channel-members,
+DIV.theme-dark DIV.channel-members,
+DIV.theme-light .search-results-wrap,
+DIV.theme-dark .search-results-wrap,
+DIV.theme-light #friends [class*="noWrap"][class*="headerBar"],
+DIV.theme-dark #friends [class*="noWrap"][class*="headerBar"],
+DIV.theme-light #friends DIV.friends-table,
+DIV.theme-dark #friends DIV.friends-table {
+    background-color: transparent !important;
 }
-
-[class*="title"] [class*="channelName"] {
-  color: #bfbfbf !Important;
-}
-
-[class*="title"] [class*="topic"] {
-  font-size: 12px;
-  margin-top: 2px;
-  color: #afafaf !important;
-}
-
-.flex-spacer.flex-vertical [class*="channelTextAreaEnabled"] TEXTAREA {
-  color: #d6d6d6;
-}
-
-.flex-spacer.flex-vertical [class*="channelTextAreaEnabled"] TEXTAREA::-webkit-input-placeholder {
-  color: hsla(0, 0%, 100%, .2);
-  -webkit-filter: grayscale(1);
-  filter: grayscale(1);
-}
-
-[class*="autocompleteInner"] [class*="selector-"] [class*="marginLeft8"] {
-  color: rgba(255, 255, 255, .6) !Important;
-}
-
-[class*="autocompleteInner"] [class*="selectorSelected-"] [class*="marginLeft8"] {
-  color: #fff !important;
-}
-
-[class*="flex"][class*="base"], DIV.notice {
-  border-radius: 0 0 0 0 !Important;
-}
-
-.notice.notice-facebook {
-  background-color: rgba(53, 80, 137, 0.71) !important;
-}
-
-/*  Light appearance */
-
-[class*="theme-"] [class*="autocompleteInner"] {
-  background-color: transparent !important;
-}
-
-/* There are other things expressly for light theme / are
-   made specific for dark theme which needs resolution. */
 
 DIV[class*="theme-"] .guilds-wrapper .guildsWrapper-5TJh6A, DIV[class*="theme-"] .guilds-wrapper .guildsWrapper-5TJh6A, DIV[class*="theme-"] DIV[class*="noWrap"] [class*="channels-"], DIV[class*="theme-"] DIV[class*="noWrap"] [class*="channels-"], DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal, DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal, DIV[class*="titleWrapper"][class*="theme-"]>DIV[class*="title-"], DIV[class*="titleWrapper"][class*="theme-"]>DIV[class*="title-"], DIV[class*="theme-"] DIV.channel-members, DIV[class*="theme-"] DIV.channel-members, DIV[class*="theme-"] .search-results-wrap, DIV[class*="theme-"] .search-results-wrap, DIV[class*="theme-"] #friends [class*="noWrap"][class*="headerBar"], DIV[class*="theme-"] #friends [class*="noWrap"][class*="headerBar"], DIV[class*="theme-"] #friends DIV.friends-table, DIV[class*="theme-"] #friends DIV.friends-table {
   background-color: transparent !important;
@@ -1392,7 +1364,7 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
   color: var(--main-color);
 }
 [class*="theme-"] .publisher-2ZxPEd {
-  border-bottom: 1px solid rgba(47,49,54,.6);
+  border-bottom: 1px transparent;
   color: var(--hover-color);
 }
 
@@ -1402,7 +1374,7 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
 }
 
 [class*="theme-"] .container-2x5lvQ section, .container-2x5lvQ header {
-    background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0,0,0,0.8);
 }
 
 [class*="theme-"] .footer-2yfCgX {
@@ -1412,7 +1384,7 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
 }
 
 [class*="theme-"] .container-2Thooq {
-    background: transparent !important;
+  background: transparent !important;
 }
 
 [class*="theme-"] .rowWrapperActive-2L7i9f {
@@ -1426,14 +1398,63 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
 }
 
 [class*="theme-"] .add-game-popout {
-    background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.5);
 }
 
 .newMessagesBar-mujexs button {
-    background: linear-gradient(to bottom right, var(--main-color), var(--hover-color)) !important;
-    color: #fff;
-    font-weight: 500;
-    line-height: 14px;
-    padding: 6px 10px;
-    text-align: left;
+  background: linear-gradient(to bottom right, var(--main-color), var(--hover-color)) !important;
+  color: #fff;
+  font-weight: 500;
+  line-height: 14px;
+  padding: 6px 10px;
+  text-align: left;
 }
+
+.theme-light .headerBar-UHpsPw {
+  -webkit-box-shadow: none;
+  background: #fff;
+  box-shadow: none;
+}
+
+.theme-light .playersHeaderLine-2luL7r {
+  background-color: transparent;
+}
+
+.theme-light .sectionLine-JjseS9 {
+  background-color: transparent;
+}
+
+.headerCellContent-1pLtOr {
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+  align-items: center;
+  min-height: 18px;
+  color: #4f545c;
+}
+/* ===================================================================================================================================================================================================================================================== */
+/* Other fixes for ClearVision */
+/* General */
+[class*="title"] [class*="channelName"]{
+    color: #bfbfbf !Important;}
+[class*="title"] [class*="topic"]{
+    font-size: 12px;
+    margin-top: 2px;
+    color: #afafaf !important;}
+.flex-spacer.flex-vertical [class*="channelTextAreaEnabled"] TEXTAREA{
+    color: #d6d6d6;}
+.flex-spacer.flex-vertical [class*="channelTextAreaEnabled"] TEXTAREA::-webkit-input-placeholder{
+    color: hsla(0, 0%, 100%, .2);
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);}
+[class*="autocompleteInner"] [class*="selector-"] [class*="marginLeft8"]{
+    color: rgba(255, 255, 255, .6) !Important;}
+[class*="autocompleteInner"] [class*="selectorSelected-"] [class*="marginLeft8"]{
+    color: #fff !important;}
+[class*="flex"][class*="base"],
+DIV.notice{
+    border-radius: 0 0 0 0 !Important;}
+.notice.notice-facebook{
+    background-color: rgba(53, 80, 137, 0.71) !important;}
+/*  Light appearance */
+.theme-light [class*="autocompleteInner"]{
+    background-color: transparent !important;}
