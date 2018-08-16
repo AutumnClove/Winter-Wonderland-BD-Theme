@@ -716,7 +716,7 @@ DIV[class*="theme-"] .guilds-wrapper .guildsWrapper-5TJh6A, DIV[class*="theme-"]
 }
 
 [class*="theme-"] .bar-2Qqk5Z {
-  background: linear-gradient(to left, var(--hover-color), var(--main-color)) !important;
+  background: linear-gradient(to bottom left, var(--hover-color), var(--main-color)) !important;
 }
 
 .grabber-3mFHz2 {
@@ -954,7 +954,7 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
 }
 
 .barInner-3NDaY_ {
-  background: linear-gradient(to left, var(--hover-color), var(--main-color)) !important;
+  background: linear-gradient(to bottom left, var(--hover-color), var(--main-color)) !important;
   height: 100%;
   min-width: 4px;
 }
@@ -1066,7 +1066,7 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
 }
 
 [class*="theme-"] .listRow-hutiT_:hover {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(106, 0, 255, .5));
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.3), rgba(106, 0, 255, .5));
   color: #b9bbbe;
 }
 
@@ -1423,4 +1423,17 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
 
 [class*="theme-"] #friends .friends-table .friends-row+.friends-row {
   border-top: transparent;
+}
+
+[class*="theme-"] .add-game-popout {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.newMessagesBar-mujexs button {
+    background: linear-gradient(to bottom right, var(--main-color), var(--hover-color)) !important;
+    color: #fff;
+    font-weight: 500;
+    line-height: 14px;
+    padding: 6px 10px;
+    text-align: left;
 }
