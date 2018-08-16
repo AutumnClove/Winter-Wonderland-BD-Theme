@@ -1412,7 +1412,7 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
 
 .theme-light .headerBar-UHpsPw {
   -webkit-box-shadow: none;
-  background: #fff;
+  background: transparent;
   box-shadow: none;
 }
 
@@ -1430,6 +1430,28 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
   align-items: center;
   min-height: 18px;
   color: #4f545c;
+}
+
+.theme-light .player-1kJMbj {
+    border-bottom-color: transparent;
+}
+
+.theme-light .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV:hover {
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+.theme-light .headerCell-3L6rFG {
+    border-left-color: transparent;
+}
+
+.theme-light .header-39GIC8 {
+    border-bottom-color: transparent;
+    color: #b9bbbe;
+}
+
+.theme-light .channels-wrap [class*="scroller-"] ul .channel.selected, .theme-light .private-channels .channel.selected, .theme-light .private-channels .search-result.selected, .theme-light .private-channels .search-result:hover, .theme-light .channels-wrap [class*="scroller-"] .channel-text.selected, .theme-light #rtc-debug-modal #users-section .user-list li.selected {
+    background: transparent;
 }
 /* ===================================================================================================================================================================================================================================================== */
 /* Other fixes for ClearVision */
