@@ -1457,30 +1457,3 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
 [class*="theme-"] .row-ZLfFhY {
     color: black;
 }
-/* ===================================================================================================================================================================================================================================================== */
-/* Other fixes for ClearVision */
-/* General */
-[class*="title"] [class*="channelName"]{
-    color: #bfbfbf !Important;}
-[class*="title"] [class*="topic"]{
-    font-size: 12px;
-    margin-top: 2px;
-    color: #afafaf !important;}
-.flex-spacer.flex-vertical [class*="channelTextAreaEnabled"] TEXTAREA{
-    color: #d6d6d6;}
-.flex-spacer.flex-vertical [class*="channelTextAreaEnabled"] TEXTAREA::-webkit-input-placeholder{
-    color: hsla(0, 0%, 100%, .2);
-    -webkit-filter: grayscale(1);
-    filter: grayscale(1);}
-[class*="autocompleteInner"] [class*="selector-"] [class*="marginLeft8"]{
-    color: rgba(255, 255, 255, .6) !Important;}
-[class*="autocompleteInner"] [class*="selectorSelected-"] [class*="marginLeft8"]{
-    color: #fff !important;}
-[class*="flex"][class*="base"],
-DIV.notice{
-    border-radius: 0 0 0 0 !Important;}
-.notice.notice-facebook{
-    background-color: rgba(53, 80, 137, 0.71) !important;}
-/*  Light appearance */
-.theme-light [class*="autocompleteInner"]{
-    background-color: transparent !important;}
