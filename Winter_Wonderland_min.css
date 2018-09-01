@@ -161,6 +161,10 @@ input:focus {
   background-color: transparent !important;
 }
 
+[class*="autocomplete-"] [class*="selectorSelected-"] {
+    background-image: linear-gradient(var(--main-color), purple, var(--hover-color)) !important;
+}
+
 /* end of emoji stuff */
 
 /* Some vc stuff */
