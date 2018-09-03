@@ -1116,6 +1116,31 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
 [class*="theme-"] .hljs-doctag, [class*="theme-"] .hljs-literal, [class*="theme-"] .hljs-meta .hljs-meta-string, [class*="theme-"] .hljs-number, [class*="theme-"] .hljs-regexp, [class*="theme-"] .hljs-string {
   color: #2aa198 !important;
 }
+.css .hljs-tag,
+.css .hljs-important,
+.css .hljs-at_rule,
+.css .hljs-keyword {
+  color: #f92672 !important;
+}
+.css .hljs-class,
+.css .hljs-id {
+  color: #a6e300 !important;
+}
+.css .hljs-value,
+.css .hljs-hexcolor,
+.css .hljs-number,
+.css .hljs-function {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+.css .hljs-attribute {
+  color: #82d4e5 !important;
+}
+.css .hljs-comment {
+  color: #686545 !important;
+}
+.css .hljs-pseudo {
+  color: #fff !important;
+}
 
 [class*="theme-"] .dividerEnabled-2TTlcf {
   border-bottom-color: transparent;
