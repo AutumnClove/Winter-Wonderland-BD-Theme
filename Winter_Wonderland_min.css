@@ -1101,8 +1101,8 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
 }
 
 .mention {
-  color: var(--hover-color) !important;
-  background: rgba(36, 36, 36, 0.1) !important;
+  color: var(--main-color) !important; /* once dani fixes with BRC plugin I'll probably unimportant this but for now it can stay */
+  background: rgba(36, 36, 36, 0.1);
   padding: 1px 4px;
   border-radius: 6px;
   transition: all .3s ease-in-out;
