@@ -692,7 +692,7 @@ DIV[class*="theme-"] .guilds-wrapper .guildsWrapper-5TJh6A, DIV[class*="theme-"]
 }
 
 [class*="theme-"] .bar-2Qqk5Z {
-  background: linear-gradient(to bottom left, var(--hover-color), var(--main-color)) !important;
+  background: linear-gradient(to bottom left, var(--hover-color), purple, var(--main-color)) !important;
 }
 
 .grabber-3mFHz2 {
@@ -930,7 +930,7 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
 }
 
 .barInner-3NDaY_ {
-  background: linear-gradient(to bottom left, var(--hover-color), var(--main-color)) !important;
+  background: linear-gradient(to bottom left, var(--hover-color), purple, var(--main-color)) !important;
   height: 100%;
   min-width: 4px;
 }
@@ -1400,7 +1400,7 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
 }
 
 .newMessagesBar-mujexs button {
-  background: linear-gradient(to bottom right, var(--main-color), var(--hover-color)) !important;
+  background: linear-gradient(to bottom right, var(--main-color), purple, var(--hover-color)) !important;
   color: #fff;
   font-weight: 500;
   line-height: 14px;
