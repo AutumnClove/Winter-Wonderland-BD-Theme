@@ -12,18 +12,17 @@ Winter Wonderland bd theme is a theme for a [discord](https://discordapp.com/) p
 ![Spotify](https://github.com/AutumnClove/Winter-Wonderland-BD-Theme/blob/master/Sample%20Pics/Spotify.png?raw=true)
 ### Up to date game launcher
 ![Game Launcher](https://github.com/AutumnClove/Winter-Wonderland-BD-Theme/blob/master/Sample%20Pics/Game%20Launcher.png?raw=true)
-### Installation guide
 
 # Ok Cool how do I install it? 
 Easy! 
-1) open Winter_Wonderland.theme.css 
-2) click view as raw
-3) press ctrl + s open the discord app
-4) go to settings and press "open theme folder"
-5) file to this folder and save
-6) now open the discord app again
-7) press ctrl + r
-8) open settings and enable the theme
+### 1) open Winter_Wonderland.theme.css 
+### 2) click view as raw
+### 3) press ctrl + s open the discord app
+### 4) go to settings and press "open theme folder"
+### 5) Move the file to this folder and save
+### 6) now open the discord app again
+###7) press ctrl + r
+### 8) open settings and enable the theme
 
 # Need a visual guide?
 ![Installing Guide](https://cdn.discordapp.com/attachments/84617750827261952/312679447579066368/unknown.png?raw=true)
