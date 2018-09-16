@@ -1624,3 +1624,7 @@ element.style {
 [class*="theme-"] .expandedInfo-3kfShd {
     background-color: transparent;
 }
+
+[class*="theme-"] .attachPopoutRow-KrE-f6:hover {
+    background-color: var(--main-color);
+}
