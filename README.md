@@ -21,7 +21,7 @@ Easy!
 ### 4) go to settings and press "open theme folder"
 ### 5) Move the file to this folder and save
 ### 6) now open the discord app again
-###7) press ctrl + r
+### 7) press ctrl + r
 ### 8) open settings and enable the theme
 
 # Need a visual guide?
