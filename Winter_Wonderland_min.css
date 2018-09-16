@@ -778,7 +778,7 @@ DIV[class*="theme-"] .guilds-wrapper .guildsWrapper-5TJh6A, DIV[class*="theme-"]
 }
 
 DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
-  /* background-color: rgba(0, 0, 0, .71) !Important; */
+  /* background-color: rgba(0, 0, 0, .71) !important; */
   box-shadow: none !important;
 }
 
@@ -1627,4 +1627,34 @@ element.style {
 
 [class*="theme-"] .attachPopoutRow-KrE-f6:hover {
     background-color: var(--main-color);
+}
+
+[class*="theme-"] .keyboardShortcutsModal-3piNz7 {
+    background-color: rgba(0,0,0,0.6);
+}
+
+[class*="theme-"] .dim-1l4L4y span {
+  color: var(--main-color) !important;
+}
+
+[class*="theme-"] .keyboardShortcutList-13cQ-8 .keybindGroup--6Qp-w .keybindDescription-2RDbC2 {
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+[class*="theme-"] .keybindShortcut-1BD6Z1 span {
+    -webkit-box-shadow: inset 0 -4px 0 rgba(35,39,42,.6);
+    background-color: #72767d;
+    border: 1px solid #202225;
+    box-shadow: inset 0 -4px 0 rgba(35,39,42,.6);
+    color: var(--hover-color);
+}
+
+.lookOutlined-3sRXeN.colorBrand-3pXr91:hover {
+    border-color: transparent;
+    background-color: var(--main-color);
+}
+
+.lookOutlined-3sRXeN.colorBrand-3pXr91 {
+  border-color: var(--main-color);
 }
