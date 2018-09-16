@@ -225,7 +225,7 @@ input:focus {
   border-color: transparent;
 }
 
-/* end of borders around people speaking */
+/* end of vc stuff */
 
 .buttonGreenFilled-6QHNrw, .buttonGreenFilledDefault-_lLQaz:hover {
   background-color: var(--main-color);
@@ -1165,6 +1165,15 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
   border-color: transparent !important;
 }
 
+.option-n0icdO:hover {
+    -webkit-box-shadow: 0 2px 0 rgba(0,0,0,.3);
+    background-color: var(--main-color);
+    box-shadow: 0 2px 0 rgba(0,0,0,.3);
+    opacity: .8;
+}
+
+/**/
+
 .wrapper-3jrx9n {
   border: transparent;
   box-shadow: transparent !important;
@@ -1470,7 +1479,13 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
 
 [class*="theme-"] .header-39GIC8 {
     border-bottom-color: transparent;
-    color: #b9bbbe;
+    color: transparent !important;
+}
+
+[class*="theme-"] .header-39GIC8 {
+    background-color: transparent;
+    border-bottom-color: hsla(0,0%,100%,.1);
+    color: hsla(0,0%,100%,.3);
 }
 
 [class*="theme-"] .channels-wrap [class*="scroller-"] ul .channel.selected, [class*="theme-"] .private-channels .channel.selected, [class*="theme-"] .private-channels .search-result.selected, [class*="theme-"] .private-channels .search-result:hover, [class*="theme-"] .channels-wrap [class*="scroller-"] .channel-text.selected, [class*="theme-"] #rtc-debug-modal #users-section .user-list li.selected {
@@ -1480,6 +1495,132 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
 [class*="theme-"] .row-ZLfFhY {
     color: black;
 }
+
 .newMessagesBar-mujexs, [class*="theme-"] .jumpToPresentBar-9P20AM {
     background-image: linear-gradient(var(--main-color), purple, var(--hover-color)) !important;
+}
+
+.lookInverted-2D7oAl.colorGreen-29iAKY {
+    background-color: var(--main-color) !important;
+}
+
+.regionSelectModal-12e-57 {
+    -webkit-box-sizing: border-box;
+    background: rgba(0,0,0,0.2);
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 30px;
+    width: 700px;
+}
+
+[class*="theme-"] .emoji-alias-input .emoji-input {
+    background-color: transparent !important;
+}
+
+[class*="theme-"] .input-cIJ7To:hover {
+    border-color: var(--main-color);
+}
+
+[class*="theme-"] .container-3cGP6G {
+    background: rgba(0,0,0,0.6);
+}
+
+[class*="theme-"] .item-2J1YMK:active, [class*="theme-"] .item-2J1YMK:hover {
+    background-color: var(--hover-color);
+    color: #fff;
+}
+
+element.style {
+    opacity: 0.95;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 1000;
+    transform: translateZ(0px);
+}
+
+.downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236 .downloadButton-1bWXpg {
+    -webkit-transition: background-color .3s ease-in-out;
+    background-color: var(--main-color);
+    border-radius: 3px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 20px;
+    padding: 12px 0;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .3s ease-in-out;
+    width: 150px;
+}
+
+[class*="theme-"] .searchAnswer-3Dz2-q, [class*="theme-"] .searchFilter-2ESiM3 {
+    background-color: var(--main-color);
+}
+
+[class*="theme-"] .searchBar-1MOL6S {
+    background-color: rgba(0,0,0,0.1);
+}
+
+[calss*="theme-"] .colorPickerCustom-2CWBn2 {
+    background: rgba(0,0,0,0.8);
+    border-color: transparent;
+}
+
+[class*="theme-"] .popoutList-T9CKZQ {
+    background: rgba(0,0,0,0.5);
+}
+
+[class*="theme-"] .selectableItem-1MP3MQ:hover {
+    background-color: var(--hover-color);
+}
+
+.form-deprecated .form-actions, .form.deprecated .form-actions {
+    -ms-flex-negative: 0;
+    -webkit-box-sizing: border-box;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 0 0 5px 5px;
+    border-top: transparent;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    padding: 18px 40px;
+    text-align: right;
+    width: 100%;
+}
+
+[class*="theme-"] .accountBtnInner-sj5jLs:hover {
+    background-color: var(--main-color);
+    border-color: transparent;
+}
+
+[class*="theme-"] .paymentPane-3bwJ6A {
+    background-color: rgba(0,0,0,0.6);
+    color: #f6f6f7;
+}
+
+[class*="theme-"] .paymentRow-2e7VM6 {
+    border-bottom: 1px solid rgba(0,0,0,0.6);
+}
+
+[class*="theme-"] .paginator-166-09 {
+    background: rgba(0,0,0,0.6);
+}
+
+[class*="theme-"] .paginator-2CA79G {
+    color: rgba(0,0,0,0.6);
+}
+
+[class*="theme-"] .paymentRow-2e7VM6 {
+    border-bottom: 1px solid rgba(0,0,0,0.6);
+}
+
+[class*="theme-"] .payment-xT17Mq {
+    background-color: rgba(0,0,0,0.6);
+    color: rgba(0,0,0,0.6);
+}
+
+[class*="theme-"] .hoverablePayment-Yc6mK7:hover {
+    background-color: var(--hover-color);
+}
+
+[class*="theme-"] .expandedInfo-3kfShd {
+    background-color: transparent;
 }
