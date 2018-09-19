@@ -1669,15 +1669,15 @@ element.style {
 }
 
 [class*="theme-"] .divider-21LyPb {
-    border: transparent;
+    border: transparent !important;
 }
 
 [class*="theme-"] .body-1CAT0-, [class*="theme-"] .body-1CAT0- {
-    background-color: rgba(0,0,0,.1);
+    background-color: rgba(0,0,0,.1) !important;
 }
 
 [class*="theme-"] .assetWrapper-2Qw_5D {
-    background-color: transparent;
+    background-color: transparent !important;
 }
 
 [class*="theme-"] .keybindShortcut-1BD6Z1 span .bindArrow-2X3Aom g {
@@ -1685,7 +1685,7 @@ element.style {
 }
 
 .smallCarousel-2e0IQc {
-    background-color: transparent;
+    background-color: transparent !important;
     height: 424px;
 }
 
@@ -1697,7 +1697,7 @@ element.style {
 .embedContainer-26S24y {
     -ms-flex-pack: center;
     -webkit-box-pack: center;
-    background-color: transparent;
+    background-color: transparent !important;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
