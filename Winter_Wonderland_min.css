@@ -1461,7 +1461,7 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
   -webkit-box-align: center;
   align-items: center;
   min-height: 18px;
-  color: #4f545c;
+  color: var(--main-color);
 }
 
 [class*="theme-"] .player-1kJMbj {
@@ -1493,7 +1493,11 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
 }
 
 [class*="theme-"] .row-ZLfFhY {
-    color: black;
+    color: var(--hover-color);
+}
+
+[class*="theme-"].settingIcon-1nXguX, [class*="theme-"] .textCell-1aBIUP {
+    color: var(--hover-color);
 }
 
 .newMessagesBar-mujexs, [class*="theme-"] .jumpToPresentBar-9P20AM {
@@ -1703,4 +1707,9 @@ element.style {
     display: flex;
     justify-content: center;
     width: 100%;
+}
+
+.overlappingBorder-1-XPGl {
+    border: 3px solid var(--main-color);
+    border-radius: 3px;
 }
