@@ -974,12 +974,12 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
 }
 
 .ace-monokai {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.1) !important;
   color: #F8F8F2;
 }
 
 .ace-monokai .ace_gutter {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.1) !important;
 }
 
 .discriminator {
@@ -1634,7 +1634,7 @@ element.style {
 }
 
 [class*="theme-"] .dim-1l4L4y span {
-  color: var(--main-color) !important;
+  color: var(--hover-color) !important;
 }
 
 [class*="theme-"] .keyboardShortcutList-13cQ-8 .keybindGroup--6Qp-w .keybindDescription-2RDbC2 {
@@ -1657,4 +1657,50 @@ element.style {
 
 .lookOutlined-3sRXeN.colorBrand-3pXr91 {
   border-color: var(--main-color);
+}
+
+[class*="theme-"] .distributionApplicationsActions-3D2_kD, [class*="theme-"] .premiumApplicationsHeader-Zmkm5e {
+    border-color: transparent;
+    color: var(--main-color);
+}
+
+[class*="theme-"] .bubble-1gL_TN, [class*="theme-"] .bubble-1gL_TN {
+    background-color: rgba(0,0,0,.1);
+}
+
+[class*="theme-"] .divider-21LyPb {
+    border: transparent;
+}
+
+[class*="theme-"] .body-1CAT0-, [class*="theme-"] .body-1CAT0- {
+    background-color: rgba(0,0,0,.1);
+}
+
+[class*="theme-"] .assetWrapper-2Qw_5D {
+    background-color: transparent;
+}
+
+[class*="theme-"] .keybindShortcut-1BD6Z1 span .bindArrow-2X3Aom g {
+    fill: var(--main-color)
+}
+
+.smallCarousel-2e0IQc {
+    background-color: transparent;
+    height: 424px;
+}
+
+[class*="theme-"] .smallCarousel-2e0IQc {
+    background-color: transparent;
+    height: 424px;
+}
+
+.embedContainer-26S24y {
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+    background-color: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
