@@ -1727,3 +1727,7 @@ element.style {
 .actionRed-gYn8D3 {
     background-color: var(--main-color);
 }
+
+[class*="theme-"] .searchBox-3Y2Vi7 { 
+  background-color: rgba(0,0,0,0.8); 
+}
