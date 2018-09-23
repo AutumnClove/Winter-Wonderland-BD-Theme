@@ -1713,3 +1713,17 @@ element.style {
     border: 3px solid var(--main-color);
     border-radius: 3px;
 }
+
+.separator-2IZ9ro {
+    display: none;
+    height: 1px;
+    width: 100px;
+}
+
+.actionRed-gYn8D3:hover {
+    background-color: var(--hover-color);
+}
+
+.actionRed-gYn8D3 {
+    background-color: var(--main-color);
+}
