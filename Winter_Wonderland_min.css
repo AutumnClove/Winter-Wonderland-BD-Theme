@@ -1041,7 +1041,7 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
 
 [class*="theme-"] .body-3iLsc4, [class*="theme-"] .footer-1fjuF6 {
     background-color: inherit;
-    color: var(--hover-color);
+    color: #fff !important;
 }
 
 .isMentionedCozy-3isp7y:after {
