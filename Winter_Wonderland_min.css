@@ -543,6 +543,10 @@ input:focus {
   padding: 12px 10px 10px;
 }
 
+#app-mount .userPopout-3XzG_A .avatarWrapper-3H_478 .statusProfile-3ynqtt{
+  display: none;
+}
+
 .contentImagesUserPopout-1vLdRA {
   margin-left: 10px;
   padding-top: 10px;
@@ -1022,15 +1026,18 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
   color: #b9bbbe;
 }
 
-#app-mount .userPopout-3XzG_A .avatarWrapper-3H_478 .statusProfile-3ynqtt {
-    bottom: -8px;
-    width: 250px;
-    height: 8px;
-    left: 0;
-    display: none !important;
-    border-radius: 0;
-    z-index: 4;
-    border: none;
+.activity-11LB_k {
+    background-color: transparent !important;
+}
+
+.bodyTitle-Y0qMQz {
+    color: var(--main-color);
+    text-transform: uppercase;
+}
+
+[class*="theme-"] .body-3iLsc4, [class*="theme-"] .footer-1fjuF6 {
+    background-color: inherit;
+    color: var(--hover-color);
 }
 
 .isMentionedCozy-3isp7y:after {
@@ -1701,6 +1708,14 @@ element.style {
     background-color: #36393f;
     border-color: var(--main-color) !important;
     color: hsla(0,0%,100%,.7);
+}
+
+.quickMessage-1yeL4E::-webkit-input-placeholder {
+    color: var(--main-color) !important;
+}
+
+.note-3kmerW textarea::-webkit-input-placeholder {
+  color: var(--main-color) !important;
 }
 
 [class*="theme-"] .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-track-piece {
