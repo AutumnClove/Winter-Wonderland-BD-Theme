@@ -1,4 +1,4 @@
-//META{"name":"Winter_Wonderland","description":"A mystical, purple theme with customizable colors & background! Based on Clearvision Amethyst.","author":"Winter","version":"1.0.6"}*//{}
+//META{"name":"Winter_Wonderland","description":"A mystical, purple theme with customizable colors & background! Based on Clearvision Amethyst.","author":"Winter","version":"1.1.6"}*//{}
 
 /* "Winter Wonderland v1" by Winter */
 /* Based on "Discord Reborn v4.30" by @Omniscient, "Clearvision Amethyst" by @Zerthox & "DarkMatter" by @Hammock */
@@ -7,13 +7,14 @@
 @import url(https://zerthox.github.io/ClearVision/css/ClearVision_v5.min.css);
 @import url(https://autumnclove.github.io/Winter-Wonderland-BD-Theme/Winter_Wonderland_min.css);
 @import url(https://intrnl.github.io/discordcustomizations/titlebarRevert/dist/themefile.css);
+@import url(https://satoru8.github.io/FullSizePfp/FullSizePfp.css);
 /* change color and brightness with these settings below */
 /* I guess some people can't figure this out but to change just adjust */
 /* --hover-color: can use any color format really hsla rgba hex same for */
 /* --main-color: */
 /* If you don't know what color you want use this picker: http://hslpicker.com/ */
 :root {
-    --hover-color: hsla(276, 65%, 19%, 1);
+    --hover-color: violet;
     --main-color: hsla(265, 100%, 50%, 1);
     --background-blur: 0px;
     --background-brightness: 100%;
@@ -32,7 +33,37 @@ body::after,
     background-image: url('https://www.mexatk.com/wp-content/uploads/2016/05/%D8%B5%D9%88%D8%B1-%D8%AE%D9%84%D9%81%D9%8A%D8%A7%D8%AA-%D9%84%D9%8A%D9%84%D9%8A%D8%A9-%D8%AC%D9%85%D9%8A%D9%84%D8%A9-%D9%88%D9%85%D9%85%D9%8A%D8%B2%D8%A9-%D8%A7%D8%AD%D9%84%D9%8A-%D8%B5%D9%88%D8%B1-%D8%AE%D9%84%D9%81%D9%8A%D8%A7%D8%AA-2.jpg');
     background-size: 1950px 1100px;
 }
+
 /* lets us customize our home icon */
 [class*="theme-"] .homeIcon-1FoKUJ, .homeIcon-1FoKUJ:hover {
     background-image: url(https://i.pinimg.com/736x/5c/df/52/5cdf522c003ac1bc8c4c151bcacee778.jpg) !important;
+}
+
+/* lets us customize our user pop outs */
+:root {
+	--profileradius: 25px; 
+	--color: #fff;
+	--bg: rgba(0,0,0,.6);
+	--round: 50%;
+	--light: rgba(0, 0, 0, .3);
+    --userlight: rgba(0, 0, 0, 0.2) !important;
+    --mc: hsla(250, 18%, 14%, 1);
+    --sc: hsla(250, 31%, 28%, 1);
+    --bc: hsla(259, 64%, 55%, 0.8);
+    --round: 50%;
+    --font: sans-serif;
+    --font-size: 15px;
+    --text: #eee;
+    --block: none;
+}
+
+.appMount-3VJmYg {
+    background: url(https://i1.wp.com/livewallpaper.info/wp-content/uploads/2017/08/wallhaven-1920%C3%971080-wallpaper-wp80013660.png) center/cover no-repeat
+}
+
+.userPopout-3XzG_A {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://pre00.deviantart.net/a68a/th/pre/f/2017/182/2/5/aesthetic_phone_wallpaper_by_ff3113-dbeojoi.png) center/cover no-repeat
+}
+svg.homeIcon-1FoKUJ {
+    background: url(https://i.imgur.com/CqAFpyP.jpg) no-repeat center/cover
 }
