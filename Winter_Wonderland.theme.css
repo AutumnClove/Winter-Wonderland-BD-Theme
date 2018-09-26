@@ -1,4 +1,4 @@
-//META{"name":"Winter_Wonderland","description":"A mystical, purple theme with customizable colors & background! Based on Clearvision Amethyst.","author":"Winter","version":"1.1.8"}*//{}
+//META{"name":"Winter_Wonderland","description":"A mystical, purple theme with customizable colors & background! Based on Clearvision Amethyst.","author":"Winter","version":"1.1.9"}*//{}
 
 /* "Winter Wonderland v1" by Winter */
 /* Based on "Discord Reborn v4.30" by @Omniscient, "Clearvision Amethyst" by @Zerthox & "DarkMatter" by @Hammock */
@@ -18,20 +18,6 @@
     --main-color: hsla(265, 100%, 50%, 1);
     --background-blur: 0px;
     --background-brightness: 100%;
-    --profileradius: 25px; 
-	--color: #fff;
-	--bg: rgba(0,0,0,.6);
-	--round: 50%;
-	--light: rgba(0, 0, 0, .3);
-    --userlight: rgba(0, 0, 0, 0.2) !important;
-    --mc: hsla(250, 18%, 14%, 1);
-    --sc: hsla(250, 31%, 28%, 1);
-    --bc: hsla(259, 64%, 55%, 0.8);
-    --round: 50%;
-    --font: sans-serif;
-    --font-size: 15px;
-    --text: #eee;
-    --block: none;
 }
 body::after,
 .callout-backdrop,
