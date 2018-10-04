@@ -1322,21 +1322,12 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
   opacity: .4;
 }
 
-[class*="theme-"] .divider-3gKybi.dividerRed-MKoLlr>span {
-  color: var(--main-color);
+[class*="theme-"] .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI {
+    display: none;
 }
 
-[class*="theme-"] .divider-3gKybi:not(.dividerRed-MKoLlr) span {
-  color: var(--main-color);
-  background: transparent !important;
-  font-size: 12px;
-  text-transform: uppercase;
-  margin: 10px 0px;
-  border-radius: 3px;
-  opacity: 1;
-  padding: 5px 15px;
-  width: 100%;
-  text-align: center;
+[class*="theme-"] .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI {
+    display: none;
 }
 
 .authBox-hW6HRx {
