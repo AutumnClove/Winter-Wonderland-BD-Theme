@@ -1727,12 +1727,16 @@ element.style {
 }
 
 [class*="theme-"] .focused-2bY0OD {
-    background-color: rgba(0,0,0,0.6);
+    background-color: transparent;
 }
 
 [class*="theme-"] .queryContainer-RKFJW- {
     border-bottom-color: transparent;
     color: #b9bbbe;
+}
+
+[class*="theme-"] .container-3ayLPN {
+    background-color: rgba(0,0,0,.9) !important; /* I like it darker then cv as you can't see some stuff when it's at rgba(0,0,0,0.65) */
 }
 
 .toast {
