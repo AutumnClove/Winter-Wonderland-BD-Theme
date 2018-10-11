@@ -1178,7 +1178,7 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
   border-color: transparent;
 }
 
-.friendsOnline-_wi_fM.da-friendsOnline {
+.friendsOnline-_wi_fM {
   background: var(--main-color);
   border-radius: 25px;
   color: #DCDCDC;
@@ -1716,4 +1716,27 @@ element.style {
 [class*="theme-"] .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-track-piece {
     background-color: transparent !important; 
     border-color: transparent !important; 
+}
+
+[class*="theme-"] .option-96V44q.selected-rZcOL-:after {
+    display: none;
+}
+
+[class*="theme-"] .option-96V44q:after {
+    display: none;
+}
+
+.toast {
+    animation: toast-up 300ms ease;
+    transform: translateY(-10px);
+    background: rgba(0,0,0,0.6) !important;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 0 1px rgba(32,34,37,.6), 0 2px 10px 0 rgba(0,0,0,.2);
+    font-weight: 500;
+    color: #fff;
+    user-select: text;
+    font-size: 14px;
+    opacity: 1;
+    margin-top: 10px;
 }
