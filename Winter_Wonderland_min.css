@@ -1726,6 +1726,15 @@ element.style {
     display: none;
 }
 
+[class*="theme-"] .focused-2bY0OD {
+    background-color: rgba(0,0,0,0.6);
+}
+
+[class*="theme-"] .queryContainer-RKFJW- {
+    border-bottom-color: transparent;
+    color: #b9bbbe;
+}
+
 .toast {
     animation: toast-up 300ms ease;
     transform: translateY(-10px);
