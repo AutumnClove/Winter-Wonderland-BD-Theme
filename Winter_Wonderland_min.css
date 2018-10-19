@@ -1763,3 +1763,47 @@ element.style {
     background-color: var(--hover-color);
     color: #f6f6f7;
 }
+
+.bf-toolbar:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: calc(100% - 15px);
+    position: absolute;
+    z-index: -1;
+    background: rgba(0,0,0,0.9);
+    pointer-events: initial;
+    left: 0px;
+    top: 5px;
+    border-radius: 3px;
+    transform: translate(0,55px);
+}
+
+.bd-modal-wrapper .bd-modal-body {
+    background-color: rgba(0,0,0,0.9);
+    color: #fff;
+    flex-direction: row;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    contain: layout;
+    position: relative;
+}
+
+.accountDetails-3k9g4n .discriminator {
+    display: block;
+    font-size: 10px;
+    margin-top: 4px;
+    opacity: .4;
+    background: transparent !important;
+}
+
+.accountDetails-3k9g4n .discriminator:hover {
+    display: block;
+    font-size: 10px;
+    margin-top: 4px;
+    opacity: 1;
+    background: transparent !important;
+    color: var(--hover-color) !important;
+}
