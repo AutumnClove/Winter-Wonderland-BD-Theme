@@ -963,8 +963,8 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
 }
 
 .discriminator {
-  background: transparent; !important;
-  color:  !important;
+  background: transparent !important;
+  color: var(--main-color) !important;
   font-size: 14px !important;
   font-weight: 700 !important;
 }
@@ -974,7 +974,8 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
 }
 
 .discriminator:hover {
-  background: transparent; !important;
+  background: transparent !important;
+  color: var(--hover-color) !important;
 }
 
 [class*="userPopout-"] [class*="body-"]:not(.bodyAlignCenter-2WUfxb):not(.bodyNormal-2QqN-G) {
@@ -1777,6 +1778,17 @@ element.style {
     top: 5px;
     border-radius: 3px;
     transform: translate(0,55px);
+}
+
+.bd-modal-wrapper .header {
+    background-color: rgba(0,0,0,0.6);
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
+    padding: 12px 20px;
+    z-index: 1;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
 }
 
 .bd-modal-wrapper .bd-modal-body {
