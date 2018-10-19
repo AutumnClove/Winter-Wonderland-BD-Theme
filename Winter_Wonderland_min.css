@@ -1753,3 +1753,13 @@ element.style {
     opacity: 1;
     margin-top: 10px;
 }
+
+[class*="theme-"] #bd-settings-sidebar .ui-tab-bar-item.selected {
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+[class*="theme-"] #bd-settings-sidebar .ui-tab-bar-item:hover {
+    background-color: var(--hover-color);
+    color: #f6f6f7;
+}
