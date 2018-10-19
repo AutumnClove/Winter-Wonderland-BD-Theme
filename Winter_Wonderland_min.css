@@ -1819,3 +1819,21 @@ element.style {
     background: transparent !important;
     color: var(--hover-color) !important;
 }
+
+.accountDetails-3k9g4n .username {
+    display: block;
+    max-width: 84px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: var(--main-color) !important;
+}
+
+.accountDetails-3k9g4n .username:hover {
+    display: block;
+    max-width: 84px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: var(--hover-color) !important;
+}
