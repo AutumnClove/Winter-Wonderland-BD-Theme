@@ -962,20 +962,8 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
   background-color: rgba(0, 0, 0, 0.1) !important;
 }
 
-.discriminator {
-  background: transparent !important;
-  color: var(--main-color) !important;
-  font-size: 14px !important;
-  font-weight: 700 !important;
-}
-
 .theme-light .header-2BwW8b:not(.headerNormal-T_seeN) .creationDate, .theme-dark .header-2BwW8b .creationDate {
     color: #fff;
-}
-
-.discriminator:hover {
-  background: transparent !important;
-  color: var(--hover-color) !important;
 }
 
 [class*="userPopout-"] [class*="body-"]:not(.bodyAlignCenter-2WUfxb):not(.bodyNormal-2QqN-G) {
@@ -1817,23 +1805,5 @@ element.style {
     margin-top: 4px;
     opacity: 1;
     background: transparent !important;
-    color: var(--hover-color) !important;
-}
-
-.accountDetails-3k9g4n .username {
-    display: block;
-    max-width: 84px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    color: var(--main-color) !important;
-}
-
-.accountDetails-3k9g4n .username:hover {
-    display: block;
-    max-width: 84px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
     color: var(--hover-color) !important;
 }
