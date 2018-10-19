@@ -962,8 +962,20 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
   background-color: rgba(0, 0, 0, 0.1) !important;
 }
 
+.discriminator {
+  background: transparent !important;
+  color: #fff !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+}
+
 .theme-light .header-2BwW8b:not(.headerNormal-T_seeN) .creationDate, .theme-dark .header-2BwW8b .creationDate {
     color: #fff;
+}
+
+.discriminator:hover {
+  background: transparent !important;
+  color: var(--hover-color) !important;
 }
 
 [class*="userPopout-"] [class*="body-"]:not(.bodyAlignCenter-2WUfxb):not(.bodyNormal-2QqN-G) {
