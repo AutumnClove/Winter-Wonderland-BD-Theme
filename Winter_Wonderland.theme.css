@@ -1,4 +1,4 @@
-//META{"name":"Winter_Wonderland","description":"A mystical, purple theme with customizable colors & background! Based on Clearvision Amethyst.","author":"Winter","version":"1.1.9"}*//{}
+//META{"name":"Winter_Wonderland","description":"A mystical, purple theme with customizable colors & background! Based on Clearvision Amethyst.","author":"Winter","version":"1.1.10"}*//{}
 
 /* "Winter Wonderland v1" by Winter */
 /* Based on "Discord Reborn v4.30" by @Omniscient, "Clearvision Amethyst" by @Zerthox & "DarkMatter" by @Hammock */
@@ -17,7 +17,7 @@
     --hover-color: violet;
     --main-color: hsla(265, 100%, 50%, 1);
     --background-blur: 0px;
-    --background-brightness: 100%;
+    --background-brightness: 50%;
 }
 body::after,
 .callout-backdrop,
@@ -29,8 +29,8 @@ body::after,
 .invite-modal .invite-splash,
 /* you can choose your own background here for best results use one at least */
 /* 1920 x 1080 */
-.radio-theme.light label, .radio-theme.dark label{
-    background-image: url('https://www.mexatk.com/wp-content/uploads/2016/05/%D8%B5%D9%88%D8%B1-%D8%AE%D9%84%D9%81%D9%8A%D8%A7%D8%AA-%D9%84%D9%8A%D9%84%D9%8A%D8%A9-%D8%AC%D9%85%D9%8A%D9%84%D8%A9-%D9%88%D9%85%D9%85%D9%8A%D8%B2%D8%A9-%D8%A7%D8%AD%D9%84%D9%8A-%D8%B5%D9%88%D8%B1-%D8%AE%D9%84%D9%81%D9%8A%D8%A7%D8%AA-2.jpg');
+.appMount-3VJmYg {
+	background: url('https://www.mexatk.com/wp-content/uploads/2016/05/%D8%B5%D9%88%D8%B1-%D8%AE%D9%84%D9%81%D9%8A%D8%A7%D8%AA-%D9%84%D9%8A%D9%84%D9%8A%D8%A9-%D8%AC%D9%85%D9%8A%D9%84%D8%A9-%D9%88%D9%85%D9%85%D9%8A%D8%B2%D8%A9-%D8%A7%D8%AD%D9%84%D9%8A-%D8%B5%D9%88%D8%B1-%D8%AE%D9%84%D9%81%D9%8A%D8%A7%D8%AA-2.jpg') !important;
     background-size: 1950px 1100px;
 }
 
@@ -40,10 +40,6 @@ body::after,
 }
 
 /* lets us customize our user pop outs */
-.appMount-3VJmYg {
-    background: url(https://wallpapercave.com/wp/LUIiAJe.jpg) center/cover no-repeat
-}
-
 .userPopout-3XzG_A {
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://wallpapercave.com/wp/LUIiAJe.jpg) center/cover no-repeat
 }

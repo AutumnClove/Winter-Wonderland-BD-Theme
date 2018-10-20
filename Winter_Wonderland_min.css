@@ -1820,3 +1820,7 @@ element.style {
     background: transparent !important;
     color: var(--hover-color) !important;
 }
+
+.contentRegionScroller-26nc1e, [class*="theme-"] .da-sidebarRegion, [class*="theme-"] .da-contentRegion, [class*="theme-"] .da-standardSidebarView {
+    background-color: transparent !important;
+}
