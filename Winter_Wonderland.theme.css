@@ -17,7 +17,7 @@
     --hover-color: violet;
     --main-color: hsla(265, 100%, 50%, 1);
     --background-blur: 0px;
-    --background-brightness: 50%;
+    --background-brightness: 100%;
 }
 body::after,
 .callout-backdrop,
