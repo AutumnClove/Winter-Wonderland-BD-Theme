@@ -1853,7 +1853,7 @@ element.style {
     background-color: transparent;
 }
 
-[class*="theme-"] .progress-2XXRYo .small-1CUeBa .da-progress .da-small{
+[class*="theme-"] .progress-2XXRYo .small-1CUeBa, .da-progress .da-small{
   background-color:  linear-gradient(var(--main-color), purple, var(--hover-color));
 }
 
