@@ -1843,3 +1843,8 @@ element.style {
     margin-top: 5px;
     border-radius: 3px;
 }
+
+[class*="theme-"] .description-1eVELi {
+    color: var(--main-color);
+    background-color: rgba(0,0,0,1);
+}
