@@ -1848,3 +1848,24 @@ element.style {
     color: var(--main-color);
     background-color: rgba(0,0,0,1);
 }
+
+[class*="theme-"] .gameUpdates-2GPqBU {
+    background-color: transparent;
+}
+
+[class*="theme-"] .progress-2XXRYo .small-1CUeBa {
+  background-color:  linear-gradient(var(--main-color), purple, var(--hover-color));
+}
+
+[class*="theme-"] .progressCellText-3avmMz {
+    color: var(--main-color);
+}
+
+.title-1rXJ86 {
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+[class*="theme-"] .rate-1Gat8e {
+    color: var(--hover-color);
+}
