@@ -30,15 +30,15 @@ body::after,
 .invite-modal .invite-splash,
 .radio-theme.light label,
 .radio-theme.dark label {
-	background: url("https://i.imgur.com/rK8UnE4.jpg") !important;
+	background: url(https://i.imgur.com/rK8UnE4.jpg) !important;
 }
 
 /* lets us customize our home icon */
 [class*="theme-"] .homeIcon-1FoKUJ, .homeIcon-1FoKUJ:hover {
-    background-image: url("https://i.pinimg.com/736x/5c/df/52/5cdf522c003ac1bc8c4c151bcacee778.jpg") !important;
+    background-image: url(https://i.pinimg.com/736x/5c/df/52/5cdf522c003ac1bc8c4c151bcacee778.jpg) !important;
 }
 
 /* lets us customize our user pop outs */
 .userPopout-3XzG_A {
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("https://wallpapercave.com/wp/LUIiAJe.jpg") center/cover !important;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://wallpapercave.com/wp/LUIiAJe.jpg) center/cover !important;
 }
