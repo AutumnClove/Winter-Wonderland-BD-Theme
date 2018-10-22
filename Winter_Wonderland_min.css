@@ -1874,3 +1874,7 @@ element.style {
     right: 0;
     top: 0;
 }
+
+[class*="theme-"] .footer-2VgWkh {
+    background-color: transparent;
+}
