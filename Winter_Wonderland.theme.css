@@ -13,6 +13,7 @@
 /* --hover-color: can use any color format really hsla rgba hex same for */
 /* --main-color: */
 /* If you don't know what color you want use this picker: http://hslpicker.com/ */
+/* To change stuff like your background and the image on user popouts just change the https:// line inside of url() */;
 :root {
 	--background: url(https://i.imgur.com/rK8UnE4.jpg);
     --hover-color: violet;
