@@ -1882,6 +1882,7 @@ element.style {
 .username-_4ZSMR:hover {
     color: var(--hover-color)!important;
     text-shadow: 0 0 1px;
+    text-decoration: none;
 }
 
 [class*="theme-"] .member-3W1lQa:hover .content-OzHfo4 {
