@@ -1,3 +1,27 @@
+body::after,
+.backdrop-1ocfXc,
+.userPopout-11hFKo::before,
+.userPopout-3XzG_A::before,
+.root-SR8cQa::before,
+#pubs-container::before,
+.auth-background,
+.auth-tiling-bg,
+.invite-modal .invite-splash,
+.radio-theme.light label,
+.radio-theme.dark label {
+  background: var(--background) !important;
+}
+
+/* lets us customize our home icon */
+[class*="theme-"] .homeIcon-1FoKUJ, .homeIcon-1FoKUJ:hover {
+    background-image: var(--home-icon) !important;
+}
+
+/* lets us customize our user pop outs */
+.userPopout-3XzG_A {
+    background: var(--user-popout-image) !important;
+}
+
 /* emoji picker stuff */
 
 .emojiPicker-3m1S-j {
