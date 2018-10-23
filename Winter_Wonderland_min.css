@@ -1880,12 +1880,12 @@ element.style {
 }
 
 .username-_4ZSMR:hover {
-    color: var(--hover-color)!important;
+    color: var(--hover-color) !important;
     text-shadow: 0 0 1px;
 }
 
 [class*="theme-"] .member-3W1lQa:hover .content-OzHfo4 {
-    background-color: var(--hover-color);
+    background-color: hsla(216, 4%, 74%, .1) !important;
     color: #fff;
     text-shadow: 0 0 1px;
 }
