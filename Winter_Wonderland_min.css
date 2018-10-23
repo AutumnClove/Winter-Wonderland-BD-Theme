@@ -1885,7 +1885,7 @@ element.style {
 }
 
 [class*="theme-"] .member-3W1lQa:hover .content-OzHfo4 {
-    background-color: #36393f;
+    background-color: var(--hover-color);
     color: #fff;
     text-shadow: 0 0 1px;
 }
