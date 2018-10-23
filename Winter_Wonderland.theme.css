@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+//META{"name":"Winter_Wonderland","description":"A mystical, purple theme with customizable colors & background! Based on Clearvision Amethyst.","author":"Winter","version":"1.2.1"}*//{}
+
+>>>>>>> parent of 72a7288... testing
 /* "Winter Wonderland v1" by Winter */
 /* Based on "Discord Reborn v4.30" by @Omniscient, "Clearvision Amethyst" by @Zerthox & "DarkMatter" by @Hammock */
 
@@ -13,11 +18,31 @@
 /* If you don't know what color you want use this picker: http://hslpicker.com/ */
 /* To change stuff like your background and the image on user popouts just change the https:// line inside of url() */;
 :root {
-	--background: url(https://i.imgur.com/rK8UnE4.jpg);
     --hover-color: violet;
     --main-color: hsla(265, 100%, 50%, 1);
     --background-blur: 0px;
     --background-brightness: 100%;
-    --home-icon: url(https://i.pinimg.com/736x/5c/df/52/5cdf522c003ac1bc8c4c151bcacee778.jpg);
-    --user-popout-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://wallpapercave.com/wp/LUIiAJe.jpg) center/cover;
+}
+body::after,
+.backdrop-1ocfXc,
+.userPopout-11hFKo::before,
+.userPopout-3XzG_A::before,
+.root-SR8cQa::before,
+#pubs-container::before,
+.auth-background,
+.auth-tiling-bg,
+.invite-modal .invite-splash,
+.radio-theme.light label,
+.radio-theme.dark label {
+	background: url(https://i.imgur.com/rK8UnE4.jpg) !important;
+}
+
+/* lets us customize our home icon */
+[class*="theme-"] .homeIcon-1FoKUJ, .homeIcon-1FoKUJ:hover {
+    background-image: url(https://i.pinimg.com/736x/5c/df/52/5cdf522c003ac1bc8c4c151bcacee778.jpg) !important;
+}
+
+/* lets us customize our user pop outs */
+.userPopout-3XzG_A {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://wallpapercave.com/wp/LUIiAJe.jpg) center/cover !important;
 }

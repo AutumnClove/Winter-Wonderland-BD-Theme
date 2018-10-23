@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //META{"name":"Winter_Wonderland","description":"A mystical, purple theme with customizable colors & background! Based on Clearvision Amethyst.","author":"Winter","version":"2.3.1"}*//{}
 
 body::after,
@@ -24,6 +25,8 @@ body::after,
     background: var(--user-popout-image) !important;
 }
 
+=======
+>>>>>>> parent of 72a7288... testing
 /* emoji picker stuff */
 
 .emojiPicker-3m1S-j {
