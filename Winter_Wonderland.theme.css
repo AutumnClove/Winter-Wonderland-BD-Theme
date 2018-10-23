@@ -11,6 +11,7 @@
 /* --hover-color: can use any color format really hsla rgba hex same for */
 /* --main-color: */
 /* If you don't know what color you want use this picker: http://hslpicker.com/ */
+/* to change stuff like your background image and home icon and user pop out image, just change the link inside url() MUST BE HTTPS:// */
 :root {
     --hover-color: violet;
     --main-color: hsla(265, 100%, 50%, 1);
