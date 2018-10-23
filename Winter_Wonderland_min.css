@@ -1878,3 +1878,14 @@ element.style {
 [class*="theme-"] .footer-2VgWkh {
     background-color: transparent;
 }
+
+.username-_4ZSMR:hover {
+    color: var(--hover-color)!important;
+    text-shadow: 0 0 1px;
+}
+
+[class*="theme-"] .member-3W1lQa:hover .content-OzHfo4 {
+    background-color: #36393f;
+    color: #fff;
+    text-shadow: 0 0 1px;
+}
