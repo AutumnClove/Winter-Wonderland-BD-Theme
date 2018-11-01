@@ -1469,7 +1469,7 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
 }
 
 .newMessagesBar-mujexs, [class*="theme-"] .jumpToPresentBar-9P20AM {
-    background-image: linear-gradient(var(--main-color), purple, var(--hover-color)) !important;
+    background-image: linear-gradient(var(--main-color), var(--hover-color)) !important;
 }
 
 .lookInverted-2D7oAl.colorGreen-29iAKY {
