@@ -1917,3 +1917,16 @@ element.style {
 .sidebar-1-SQro {
     background: transparent;
 }
+
+[class*="theme-"] .header-Hg_qNF {
+    color: var(--main-color);
+}
+
+[class*="theme-"] .invite-18yqGF {
+    background: rgba(0,0,0,0.65);
+    border-color: var(--main-color);
+}
+
+[class*="theme-"] .textLink-3aPthL, [class*="theme-"] .message-group .textLink-3aPthL {
+    color: var(--hover-color);
+}
