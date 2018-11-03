@@ -1889,3 +1889,31 @@ element.style {
     color: #fff;
     text-shadow: 0 0 1px;
 }
+
+.wrapper-232cHJ {
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.25), inset 0 1px 0 hsla(0,0%,100%,.15);
+    background-clip: padding-box;
+    background-color: var(--main-color) !important;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(0,0,0,.25), inset 0 1px 0 hsla(0,0%,100%,.15);
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    padding: 3px 6px;
+    text-shadow: 0 1px 0 rgba(0,0,0,.25);
+    text-transform: uppercase;
+}
+
+[class*="theme-"] .container-1If-HZ, [class*="theme-"] .reactors-Blmlhw {
+    background-color: transparent;
+}
+
+[class*="theme-"] .reactionSelected-1pqISm {
+    background-color: var(--main-color);
+}
+
+.sidebar-1-SQro {
+    background: transparent;
+}
