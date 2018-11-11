@@ -1934,14 +1934,21 @@ element.style {
     color: var(--hover-color) !important;
 }
 
-[class*="theme-"] .side-8zPYf6 .itemDefault-3Jdr52:hover, [class*="theme-"] .side-8zPYf6 .itemHover-EnbcjT:hover
+[class*="theme-"] .side-8zPYf6 .itemDefault-3Jdr52:hover, [class*="theme-"] .side-8zPYf6 .itemHover-EnbcjT:hover{
+    background-color: var(--hover-color);
+    color: #f6f6f7;
+}
+
+.themeDefault-24hCdX {
+    background-color: var(--hover-color);
+}
 
 .themeDefault-24hCdX.valueChecked-m-4IJZ {
-    background-color: var(--main-color);
+    background-color: var(--main-color) !important;
 }
 
 .size-3rFEHg:after {
-    background-color: var(--hover-color);
+    background-color: var(--hover-color) !important;
     content: "";
     display: block;
     position: absolute;
