@@ -1173,11 +1173,6 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
   background-color: transparent;
 }
 
-::selection {
-  color: blue important;
-  background: blue !important;
-}
-
 [class*="theme-"] .user-settings-games .not-detected, [class*="theme-"] .user-settings-games .not-detected {
   background-color: transparent;
 }
