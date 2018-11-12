@@ -744,6 +744,21 @@ DIV[class*="theme-"] .guilds-wrapper .guildsWrapper-5TJh6A, DIV[class*="theme-"]
   transform: translate(0, 0) !important;
 }
 
+#bd-settingspane-container .ui-switch-wrapper .ui-switch-checkbox:checked+.ui-switch::before {
+    background-color: var(--hover-color) !important;
+}
+
+#bd-settingspane-container .ui-switch-wrapper .ui-switch-checkbox+.ui-switch::before {
+    background-color: var(--main-color) !important;
+}
+
+.valueChecked-m-4IJZ.sizeDefault-2YlOZr:after {
+    background: var(--hover-color) !important;
+}
+.valueUnchecked-2lU_20.sizeDefault-2YlOZr:after {
+    background: var(--main-color) !important;
+}
+
 .guilds-wrapper .guilds {
   -moz-user-select: none;
   -ms-flex: 1;
@@ -1775,12 +1790,13 @@ element.style {
     height: calc(100% - 15px);
     position: absolute;
     z-index: -1;
-    background: rgba(0,0,0,0.9);
+    background: rgba(0,0,0,0.65) !important;
     pointer-events: initial;
     left: 0px;
     top: 5px;
     border-radius: 3px;
     transform: translate(0,55px);
+    transition: all 200ms ease;
 }
 
 .bd-modal-wrapper .header {
@@ -1883,8 +1899,8 @@ element.style {
 }
 
 .username-_4ZSMR:hover {
-    color: var(--hover-color) !important;
-    text-shadow: 0 0 1px;
+    text-decoration: none !important;
+    text-shadow: 0 0 1px !important;
 }
 
 [class*="theme-"] .member-3W1lQa:hover .content-OzHfo4 {
@@ -1937,20 +1953,4 @@ element.style {
 [class*="theme-"] .side-8zPYf6 .itemDefault-3Jdr52:hover, [class*="theme-"] .side-8zPYf6 .itemHover-EnbcjT:hover {
     background-color: var(--hover-color);
     color: #f6f6f7;
-}
-
-.themeDefault-24hCdX {
-    background-color: var(--hover-color);
-}
-
-.themeDefault-24hCdX.valueChecked-m-4IJZ {
-    background-color: var(--main-color) !important;
-}
-
-.size-3rFEHg:after {
-    background-color: var(--hover-color) !important;
-    content: "";
-    display: block;
-    position: absolute;
-    z-index: 1;
 }
