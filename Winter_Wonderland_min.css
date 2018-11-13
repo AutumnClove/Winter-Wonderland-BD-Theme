@@ -763,6 +763,14 @@ DIV[class*="theme-"] .guilds-wrapper .guildsWrapper-5TJh6A, DIV[class*="theme-"]
     background: var(--main-color) !important;
 }
 
+.themeDefault-24hCdX.valueChecked-m-4IJZ {
+    background-color: var(--main-color) !important;
+}
+
+.themeDefault-24hCdX {
+    background-color: var(--hover-color) !important;
+}
+
 .guilds-wrapper .guilds {
   -moz-user-select: none;
   -ms-flex: 1;
