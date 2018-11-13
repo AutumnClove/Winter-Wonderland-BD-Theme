@@ -771,6 +771,10 @@ DIV[class*="theme-"] .guilds-wrapper .guildsWrapper-5TJh6A, DIV[class*="theme-"]
     background-color: var(--hover-color) !important;
 }
 
+.content-column [class*="switch"][class*="valueUnchecked"], .content-column [class*="bar"] .fill[class*="barFill"] {
+    background-color: var(--hover-color) !important;
+}
+
 .guilds-wrapper .guilds {
   -moz-user-select: none;
   -ms-flex: 1;
