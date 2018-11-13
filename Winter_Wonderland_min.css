@@ -759,11 +759,11 @@ DIV[class*="theme-"] .guilds-wrapper .guildsWrapper-5TJh6A, DIV[class*="theme-"]
     background: var(--main-color) !important;
 }
 
-.themeDefault-24hCdX {
+.themeDefault-24hCdX.valueChecked-m-4IJZ {
     background-color: var(--hover-color) !important;
 }
 
-.themeDefault-24hCdX.valueChecked-m-4IJZ {
+.themeDefault-24hCdX {
     background-color: var(--main-color) !important;
 }
 
