@@ -752,6 +752,10 @@ DIV[class*="theme-"] .guilds-wrapper .guildsWrapper-5TJh6A, DIV[class*="theme-"]
     background-color: var(--main-color) !important;
 }
 
+.ui-switch {
+    background: var(--hover-color) !important;
+}
+
 .valueChecked-m-4IJZ.sizeDefault-2YlOZr:after {
     background: var(--hover-color) !important;
 }
