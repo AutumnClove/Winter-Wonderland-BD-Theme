@@ -2008,12 +2008,18 @@ element.style {
     background-color: transparent;
 }
 
+DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
 [class*="theme-"] .contentWrapper-3WC1ID {
     background: rgba(0,0,0,0.65);
 }
 
 .lookLink-9FtZy-.colorBrand-3pXr91:hover .contents-18-Yxp {
     background-image: linear-gradient(0deg,transparent,transparent 1px,var(--hover-color) 0,var(--main-color) 2px,transparent 0);
+    background-color: var(--hover-color);
 }
 
 [class*="theme-"] .description-2XMjXn {
