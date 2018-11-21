@@ -1105,7 +1105,7 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
 }
 
 .mention {
-  color: var(--main-color) !important; /* once dani fixes with BRC plugin I'll probably unimportant this but for now it can stay */
+  color: var(--main-color) !important; /* BRC Fixed itself, this is now just a fallback if a user doesn't have the plugin */
   background: rgba(36, 36, 36, 0.1);
   padding: 1px 4px;
   border-radius: 6px;
