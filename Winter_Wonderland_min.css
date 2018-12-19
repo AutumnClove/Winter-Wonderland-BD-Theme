@@ -2042,3 +2042,17 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
     box-shadow: 0 5px 9px 0 rgba(0,0,0,.12);
     color: #b9bbbe;
 }
+
+[class*="theme-"] .header-1RC2Wb, [class*="theme-"] .header-1RC2Wb:hover {
+    background-color: transparent !important;
+}
+
+[class*="theme-"] .bodyButtonColor-3yTLJ1:hover {
+    background: var(--hover-color) !important;
+}
+
+[class*="theme-"] .bodyButtonColor-3yTLJ1 {
+    background: var(--main-color) !important;
+    color: #fff;
+}
+
