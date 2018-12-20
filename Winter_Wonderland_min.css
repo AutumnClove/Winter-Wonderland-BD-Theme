@@ -698,7 +698,7 @@ DIV.theme-dark #friends DIV.friends-table {
     background-color: transparent !important;
 }
 
-.theme-dark .container-2Zlzt0 {
+[class*="theme-"] .container-2Zlzt0 {
     background-color: transparent !important;
     color: white !important;
 }
