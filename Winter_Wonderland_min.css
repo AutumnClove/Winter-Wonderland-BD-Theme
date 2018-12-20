@@ -686,8 +686,37 @@ DIV.theme-dark #friends DIV.friends-table {
 }
 /*--------------------------------------------------------------------*/
 
+[class*="theme-"] .applicationStore-1pNvnv {
+    background-color: transparent !important;
+}
+
+[class*="theme-"] .gameLibrary-TTDw4Y {
+    background: transparent !important;
+}
+
+[class*="theme-"] .root-1BQpZw {
+    background-color: transparent !important;
+}
+
+.theme-dark .container-2Zlzt0 {
+    background-color: transparent !important;
+    color: white !important;
+}
+
 DIV[class*="theme-"] .guilds-wrapper .guildsWrapper-5TJh6A, DIV[class*="theme-"] .guilds-wrapper .guildsWrapper-5TJh6A, DIV[class*="theme-"] DIV[class*="noWrap"] [class*="channels-"], DIV[class*="theme-"] DIV[class*="noWrap"] [class*="channels-"], DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal, DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal, DIV[class*="titleWrapper"][class*="theme-"]>DIV[class*="title-"], DIV[class*="titleWrapper"][class*="theme-"]>DIV[class*="title-"], DIV[class*="theme-"] DIV.channel-members, DIV[class*="theme-"] DIV.channel-members, DIV[class*="theme-"] .search-results-wrap, DIV[class*="theme-"] .search-results-wrap, DIV[class*="theme-"] #friends [class*="noWrap"][class*="headerBar"], DIV[class*="theme-"] #friends [class*="noWrap"][class*="headerBar"], DIV[class*="theme-"] #friends DIV.friends-table, DIV[class*="theme-"] #friends DIV.friends-table {
   background-color: transparent !important;
+}
+
+[class*="theme-"] .lookOutlined-3sRXeN.colorTransparent-1ewNp9 {
+    border-color: rgba(220,221,222,.3);
+    color: #dcddde;
+    background-color: var(--main-color);
+}
+
+[class*="theme-"] .lookOutlined-3sRXeN.colorTransparent-1ewNp9:hover {
+    border-color: rgba(220,221,222,.3);
+    color: #dcddde;
+    background-color: var(--hover-color);
 }
 
 [class*="theme-"] .bar-2Qqk5Z {
