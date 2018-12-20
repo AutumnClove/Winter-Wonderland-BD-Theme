@@ -650,14 +650,24 @@ input:focus {
 }
 
 /* "Smooth Backgrounds v2.2b" by Zerthox & Hebgbs */
-
 /* Make the background really clear & more smooth */
+
 DIV.theme-light .guildsWrapper-5TJh6A,
 DIV.theme-dark .guildsWrapper-5TJh6A,
 DIV.theme-light .chat-3bRxxu,
 DIV.theme-dark .chat-3bRxxu,
-DIV.theme-light.content-yTz4x3,
+DIV.theme-light .content-yTz4x3,
 DIV.theme-dark .content-yTz4x3,
+DIV.theme-light .gameLibrary-TTDw4Y,
+DIV.theme-dark .gameLibrary-TTDw4Y,
+DIV.theme-light .headerBar-UHpsPw,
+DIV.theme-dark .headerBar-UHpsPw,
+DIV.theme-light .activityFeed-28jde9,
+DIV.theme-dark .activityFeed-28jde9,
+DIV.theme-light .applicationStore-1pNvnv,
+DIV.theme-dark .applicationStore-1pNvnv,
+DIV.theme-light .root-1BQpZw,
+DIV.theme-dark .root-1BQpZw,
 DIV.theme-light DIV[class*="noWrap"] [class*="channels-"],
 DIV.theme-dark DIV[class*="noWrap"] [class*="channels-"],
 DIV.theme-light DIV.flex-spacer.flex-horizontal,
@@ -672,8 +682,9 @@ DIV.theme-light #friends [class*="noWrap"][class*="headerBar"],
 DIV.theme-dark #friends [class*="noWrap"][class*="headerBar"],
 DIV.theme-light #friends DIV.friends-table,
 DIV.theme-dark #friends DIV.friends-table {
-    background-color: transparent !important;
+  background-color: transparent !important;
 }
+/*--------------------------------------------------------------------*/
 
 DIV[class*="theme-"] .guilds-wrapper .guildsWrapper-5TJh6A, DIV[class*="theme-"] .guilds-wrapper .guildsWrapper-5TJh6A, DIV[class*="theme-"] DIV[class*="noWrap"] [class*="channels-"], DIV[class*="theme-"] DIV[class*="noWrap"] [class*="channels-"], DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal, DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal, DIV[class*="titleWrapper"][class*="theme-"]>DIV[class*="title-"], DIV[class*="titleWrapper"][class*="theme-"]>DIV[class*="title-"], DIV[class*="theme-"] DIV.channel-members, DIV[class*="theme-"] DIV.channel-members, DIV[class*="theme-"] .search-results-wrap, DIV[class*="theme-"] .search-results-wrap, DIV[class*="theme-"] #friends [class*="noWrap"][class*="headerBar"], DIV[class*="theme-"] #friends [class*="noWrap"][class*="headerBar"], DIV[class*="theme-"] #friends DIV.friends-table, DIV[class*="theme-"] #friends DIV.friends-table {
   background-color: transparent !important;
