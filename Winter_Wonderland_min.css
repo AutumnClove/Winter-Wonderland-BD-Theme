@@ -2096,3 +2096,64 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
     color: #fff;
 }
 
+.theme-dark .action-1lSjCi, .theme-light .action-1lSjCi {
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.08);
+    background: transparent;
+    border: 1px solid rgba(0,0,0,.1);
+    box-shadow: 0 2px 4px rgba(0,0,0,.08);
+}
+
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {
+    -ms-flex-align: center;
+    -ms-flex-direction: column;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -webkit-box-pack: center;
+    -webkit-box-sizing: border-box;
+    align-items: center;
+    background-color: transparent;
+    border: transparent;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    height: 114px;
+    justify-content: center;
+    margin: 7px;
+    width: 114px;
+}
+
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:hover {
+    -ms-flex-align: center;
+    -ms-flex-direction: column;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -webkit-box-pack: center;
+    -webkit-box-sizing: border-box;
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid var(--hover-color);
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    height: 114px;
+    justify-content: center;
+    margin: 7px;
+    width: 114px;
+}
+
+[class*="theme-"] .quickSelectPopout-X1hvgV {
+    background: rgba(0,0,0,0.8);
+    color: #f6f6f7;
+}
