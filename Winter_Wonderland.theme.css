@@ -1,4 +1,4 @@
-//META{"name":"Winter_Wonderland","description":"A mystical, purple theme with customizable colors & background! Based on Clearvision Amethyst.","author":"Winter","version":"1.5.5"}*//{}
+//META{"name":"Winter_Wonderland","description":"A mystical, purple theme with customizable colors & background! Based on Clearvision Amethyst.","author":"Winter","version":"1.5.6"}*//{}
 
 /* "Winter Wonderland v1" by Winter */
 /* Based on "Discord Reborn v4.30" by @Omniscient, "Clearvision Amethyst" by @Zerthox & "DarkMatter" by @Hammock */
@@ -8,12 +8,14 @@
 @import url(https://autumnclove.github.io/Winter-Wonderland-BD-Theme/Winter_Wonderland_min.css);
 @import url(https://intrnl.github.io/discordcustomizations/titlebarRevert/dist/themefile.css);
 @import url(https://satoru8.github.io/FullSizePfp/FullSizePfp.css);
-/* change color and brightness with these settings below */
-/* I guess some people can't figure this out but to change just adjust */
-/* --hover-color: can use any color format really hsla rgba hex same for */
-/* --main-color: */
-/* If you don't know what color you want use this picker: http://hslpicker.com/ */
-/* to change stuff like your background image and home icon and user pop out image, just change the link inside url() MUST BE HTTPS:// */
+/* 
+change color and brightness with these settings below 
+I guess some people can't figure this out but to change just adjust 
+--hover-color: can use any color format really hsla rgba hex same for 
+--main-color: 
+If you don't know what color you want use this picker: http://hslpicker.com/ 
+to change stuff like your background image and home icon and user pop out image, just change the link inside url() MUST BE HTTPS:// 
+ */
 :root {
     --hover-color: violet;
     --main-color: hsla(265, 100%, 50%, 1);
@@ -31,15 +33,15 @@ body::after,
 .invite-modal .invite-splash,
 .radio-theme.light label,
 .radio-theme.dark label {
-	background: url(https://i.imgur.com/rK8UnE4.jpg) !important;
+	background: url(https://i.imgur.com/rK8UnE4.jpg) !important; /* url link must be http, change it to change your themes background
 }
 
 /* lets us customize our home icon */
 [class*="theme-"] .homeIcon-1FoKUJ, .homeIcon-1FoKUJ:hover {
-    background-image: url(https://i.pinimg.com/736x/5c/df/52/5cdf522c003ac1bc8c4c151bcacee778.jpg) !important;
+    background-image: url(https://i.pinimg.com/736x/5c/df/52/5cdf522c003ac1bc8c4c151bcacee778.jpg) !important; /* url link must be http, change it to change your home icon*/
 }
 
 /* lets us customize our user pop outs */
 .userPopout-3XzG_A {
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://wallpapercave.com/wp/LUIiAJe.jpg) center/cover !important;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://wallpapercave.com/wp/LUIiAJe.jpg) center/cover !important; /* url link must be http, change it to change your user pop-outs*/
 }
