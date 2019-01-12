@@ -763,9 +763,36 @@ DIV[class*="theme-"] .guilds-wrapper .guildsWrapper-5TJh6A, DIV[class*="theme-"]
   background-image: linear-gradient(0deg, transparent, transparent 1px, transparent 0, transparent 2px, transparent 0) !important;
 }
 
-[class*="theme-"] .activity-1IYsbk {
-  color: var(--main-color) !important;
-  font-weight: 700 !important;
+[class*="theme-"] .activity-1IYsbk{
+    color: var(--main-color) !important;
+    fill: var(--main-color) !important;
+    transition: all .1s ease-in
+}
+
+.member-3W1lQa.popout-open .content-OzHfo4 .activity-1IYsbk, [class*="theme-"] .member-3W1lQa.popout-open .content-OzHfo4 .activity-1IYsbk{
+    color: white !important;
+    fill: white !important;
+}
+
+.member-3W1lQa.popout-open .content-OzHfo4 .activity-1IYsbk, [class*="theme-"] .member-3W1lQa.popout-open .content-OzHfo4 .activity-1IYsbk strong{
+    color: inherit !important;
+}
+
+.activity-1IYsbk:hover{
+    color: var(--hover-color) !important;
+    fill: var(--hover-color) !important;
+}
+
+.activityText-sLG0UL{
+    color: inherit !important;
+}
+
+.activity-1IYsbk strong{
+    color: inherit !important;
+}
+
+.activityIconForeground-qYIPPg{
+    fill: inherit !important;
 }
 
 .private-channels .channel .channel-activity-text {
@@ -2196,7 +2223,6 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
 
 .categoryFade-2ybR1J {
   -webkit-transition: background-color .15s ease-out;
-  /* background-color: rgba(0,0,0,.4); */
   border-radius: 4px;
   bottom: 0;
   left: 0;
