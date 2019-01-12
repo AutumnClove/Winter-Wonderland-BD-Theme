@@ -147,8 +147,9 @@ input:focus {
   background-size: 22px 22px;
   cursor: pointer;
   flex-shrink: 0;
-  height: 22px;
-  padding: 4px;
+  height: 4px;
+  width: 28px;
+  padding-top: 28px;
 }
 
 .bda-dark .emoji-picker .scroller::-webkit-scrollbar, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track-piece, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track-piece {
@@ -667,6 +668,8 @@ DIV.theme-light .applicationStore-1pNvnv,
 DIV.theme-dark .applicationStore-1pNvnv,
 DIV.theme-light .root-1BQpZw,
 DIV.theme-dark .root-1BQpZw,
+DIV.theme-light .container-3gCOGc,
+DIV.theme-dark .container-3gCOGc,
 DIV.theme-light DIV[class*="noWrap"] [class*="channels-"],
 DIV.theme-dark DIV[class*="noWrap"] [class*="channels-"],
 DIV.theme-light DIV.flex-spacer.flex-horizontal,
@@ -2211,4 +2214,14 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
   -webkit-box-shadow: 0 1px 0 0 #4f545c;
   box-shadow: 0 1px 0 0 #4f545c;
   padding: 20px;
+}
+
+[class*="theme-"] .top-28JiJ- .itemSelected-1qLhcL {
+    border-bottom-color: var(--hover-color) !important;
+    color: var(--main-color) !important;
+}
+
+[class*="theme-"] .top-28JiJ- .itemSelected-1qLhcL:hover {
+  border-bottom-color: var(--main-color) !important
+  color: var(--hover-color) !important;
 }
