@@ -76,14 +76,14 @@ input:focus {
 
 .searchBar-2_Yu-C.searchBarLight-1NxoDG {
     -webkit-box-shadow: none;
-    background-color: rgba(0,0,0,0.6);
+    background-color: transparent;
     box-shadow: none;
     height: auto;
     padding: 0;
 }
 
 .searchBar-2_Yu-C.searchBarLight-1NxoDG .searchBarInner-1_Tg2R {
-    background-color: rgba(255,255,250,.3);
+    background-color: rgba(0,0,0,0.3);
     border: 1px solid transparent;
     border-radius: 3px!important;
 }
@@ -161,8 +161,6 @@ input:focus {
   background-size: 22px 22px;
   cursor: pointer;
   flex-shrink: 0;
-  height: 4px;
-  width: 22px;
 }
 
 .bda-dark .emoji-picker .scroller::-webkit-scrollbar, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track-piece, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track-piece {
