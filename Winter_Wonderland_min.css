@@ -764,10 +764,11 @@ DIV[class*="theme-"] .guilds-wrapper .guildsWrapper-5TJh6A, DIV[class*="theme-"]
 }
 
 [class*="theme-"] .activity-1IYsbk{
-    color: var(--main-color) !important;
-    fill: var(--main-color) !important;
+    color: var(--hover-color) !important;
+    fill: var(--hover-color) !important;
     transition: all .1s ease-in
 }
+
 
 .member-3W1lQa.popout-open .content-OzHfo4 .activity-1IYsbk, [class*="theme-"] .member-3W1lQa.popout-open .content-OzHfo4 .activity-1IYsbk{
     color: white !important;
@@ -779,8 +780,8 @@ DIV[class*="theme-"] .guilds-wrapper .guildsWrapper-5TJh6A, DIV[class*="theme-"]
 }
 
 .activity-1IYsbk:hover{
-    color: var(--hover-color) !important;
-    fill: var(--hover-color) !important;
+    color: var(--main-color) !important;
+    fill: var(--main-color) !important;
 }
 
 .activityText-sLG0UL{
@@ -1000,6 +1001,10 @@ element.style {}
   background: var(--hover-color);
 }
 
+.member-3W1lQa:hover{
+    background-color: var(--hover-color) !important;
+}
+
 DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
   background-color: transparent !important;
 }
@@ -1044,11 +1049,11 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
 }
 
 .activityName-1IaRLn, .detailsWrap-22pigg, .nameWrap-3Z4G_9, .details-38sfDr, .nameNormal-2lqVQK, .playTime-2uWd1Z, .state-Tt0LO3, .timestamp-VjAZmo {
-  color: var(--hover-color);
+  color: var(--main-color);
 }
 
 [class*="theme-"] .activityProfile-2bJRaP .content-3JfFJh, [class*="theme-"] .activityProfile-2bJRaP .details-38sfDr, [class*="theme-"] .activityProfile-2bJRaP .name-29ETJS, [class*="theme-"] .activityUserPopout-2yItg2 .content-3JfFJh, [class*="theme-"] .activityUserPopout-2yItg2 .details-38sfDr, [class*="theme-"] .activityUserPopout-2yItg2 .name-29ETJS, [class*="theme-"] .activityProfile-2bJRaP .content-3JfFJh, [class*="theme-"] .activityProfile-2bJRaP .details-38sfDr, [class*="theme-"] .activityProfile-2bJRaP .name-29ETJS, [class*="theme-"] .activityUserPopout-2yItg2 .content-3JfFJh, [class*="theme-"] .activityUserPopout-2yItg2 .details-38sfDr, [class*="theme-"] .activityUserPopout-2yItg2 .name-29ETJS {
-  color: var(--hover-color);
+  color: var(--main-color);
 }
 
 [class*="theme-"] .contentDefault-16dKSY {
@@ -2268,4 +2273,14 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
 [class*="theme-"] .top-28JiJ- .itemSelected-1qLhcL:hover {
   border-bottom-color: var(--main-color) !important
   color: var(--hover-color) !important;
+}
+
+.content-20Aix8:hover{
+    background-color: var(--hover-color) !important;
+}
+
+/* Custom Bot tag colors */
+.botTagRegular-2HEhHi{
+  background: var(--hover-color) !important;
+  color: var(--main-color) !important;
 }
