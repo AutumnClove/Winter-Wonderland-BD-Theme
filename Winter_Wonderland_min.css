@@ -984,6 +984,10 @@ element.style {}
   display: none;
 }
 
+.homeIcon-1FoKUJ use {
+    display: none;
+}
+
 .homeIcon-1FoKUJ:hover {
   background-size: 50px;
 }
