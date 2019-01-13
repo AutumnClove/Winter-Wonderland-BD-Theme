@@ -985,6 +985,10 @@ element.style {}
   display: none;
 }
 
+.homeIcon-1FoKUJ use {
+    display: none;
+}
+
 .homeIcon-1FoKUJ:hover {
   background-size: 50px;
 }
@@ -2274,6 +2278,7 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
   border-bottom-color: var(--main-color) !important
   color: var(--hover-color) !important;
 }
+
 
 .content-20Aix8:hover{
     background-color: var(--hover-color) !important;
