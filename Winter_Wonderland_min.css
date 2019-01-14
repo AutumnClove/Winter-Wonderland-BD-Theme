@@ -1888,7 +1888,7 @@ element.style {
 }
 
 [class*="theme-"] #bd-settings-sidebar .ui-tab-bar-item.selected {
-  background-color: rgba(0,0,0,0.3); !important;
+  background-color: var(--main-color) !important;
   color: #fff;
 }
 
