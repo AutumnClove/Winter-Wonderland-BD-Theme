@@ -764,11 +764,10 @@ DIV[class*="theme-"] .guilds-wrapper .guildsWrapper-5TJh6A, DIV[class*="theme-"]
 }
 
 [class*="theme-"] .activity-1IYsbk{
-    color: var(--hover-color) !important;
-    fill: var(--hover-color) !important;
+    color: var(--main-color) !important;
+    fill: var(--main-color) !important;
     transition: all .1s ease-in
 }
-
 
 .member-3W1lQa.popout-open .content-OzHfo4 .activity-1IYsbk, [class*="theme-"] .member-3W1lQa.popout-open .content-OzHfo4 .activity-1IYsbk{
     color: white !important;
@@ -780,8 +779,8 @@ DIV[class*="theme-"] .guilds-wrapper .guildsWrapper-5TJh6A, DIV[class*="theme-"]
 }
 
 .activity-1IYsbk:hover{
-    color: var(--main-color) !important;
-    fill: var(--main-color) !important;
+    color: var(--hover-color) !important;
+    fill: var(--hover-color) !important;
 }
 
 .activityText-sLG0UL{
@@ -988,10 +987,6 @@ element.style {}
   background: var(--hover-color);
 }
 
-.member-3W1lQa:hover{
-    background-color: var(--hover-color) !important;
-}
-
 DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
   background-color: transparent !important;
 }
@@ -1040,7 +1035,7 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
 }
 
 [class*="theme-"] .activityProfile-2bJRaP .content-3JfFJh, [class*="theme-"] .activityProfile-2bJRaP .details-38sfDr, [class*="theme-"] .activityProfile-2bJRaP .name-29ETJS, [class*="theme-"] .activityUserPopout-2yItg2 .content-3JfFJh, [class*="theme-"] .activityUserPopout-2yItg2 .details-38sfDr, [class*="theme-"] .activityUserPopout-2yItg2 .name-29ETJS, [class*="theme-"] .activityProfile-2bJRaP .content-3JfFJh, [class*="theme-"] .activityProfile-2bJRaP .details-38sfDr, [class*="theme-"] .activityProfile-2bJRaP .name-29ETJS, [class*="theme-"] .activityUserPopout-2yItg2 .content-3JfFJh, [class*="theme-"] .activityUserPopout-2yItg2 .details-38sfDr, [class*="theme-"] .activityUserPopout-2yItg2 .name-29ETJS {
-  color: var(--main-color);
+  color: var(--hover-color);
 }
 
 [class*="theme-"] .contentDefault-16dKSY {
@@ -2001,7 +1996,7 @@ element.style {
 }
 
 [class*="theme-"] .member-3W1lQa:hover .content-OzHfo4 {
-  background-color: hsla(216, 4%, 74%, .1) !important;
+  background-color: var(--main-color) !important;
   color: #fff;
   text-shadow: 0 0 1px;
 }
@@ -2246,6 +2241,7 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
 [class*="theme-"] .progress-1IcQ3A {
   background-color: var(--main-color);
 }
+
 [class*="theme-"] .game-1ipmAa {
   -webkit-box-shadow: 0 1px 0 0 #4f545c;
   box-shadow: 0 1px 0 0 #4f545c;
@@ -2260,11 +2256,6 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
 [class*="theme-"] .top-28JiJ- .itemSelected-1qLhcL:hover {
   border-bottom-color: var(--main-color) !important
   color: var(--hover-color) !important;
-}
-
-
-.content-20Aix8:hover{
-    background-color: var(--hover-color) !important;
 }
 
 /* Custom Bot tag colors */
