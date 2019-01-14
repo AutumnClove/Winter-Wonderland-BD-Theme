@@ -1967,9 +1967,9 @@ element.style {
 }
 
 [class*="theme-"] .member-3W1lQa:hover .content-OzHfo4 {
-  background-color: hsla(216, 4%, 74%, .1) !important;
+  background-color: var(--hover-color) !important;
   color: #fff;
-  text-shadow: 0 0 1px;
+  text-shadow: 0 0 3px;
 }
 
 .wrapper-232cHJ {
