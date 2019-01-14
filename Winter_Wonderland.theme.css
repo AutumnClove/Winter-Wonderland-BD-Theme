@@ -54,3 +54,9 @@ body::after,
 .userPopout-3XzG_A {
   background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://wallpapercave.com/wp/LUIiAJe.jpg) center/cover !important; /* url link must be https, change it to change your user pop-outs*/
 }
+
+/* Custom Bot tag colors */
+.botTagRegular-2HEhHi{
+  background: var(--hover-color) !important;
+  color: var(--main-color) !important;
+}
