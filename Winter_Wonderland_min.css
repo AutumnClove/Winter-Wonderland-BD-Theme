@@ -972,25 +972,8 @@ element.style {}
 }
 
 /* home icon */
-
-.homeIcon-1FoKUJ {
-  color: transparent;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 15px;
-}
-
 .homeIcon-1FoKUJ g {
   display: none;
-}
-
-.homeIcon-1FoKUJ use {
-    display: none;
-}
-
-.homeIcon-1FoKUJ:hover {
-  background-size: 50px;
 }
 
 /* hover shadow in dms */
