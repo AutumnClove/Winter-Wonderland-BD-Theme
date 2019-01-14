@@ -2272,3 +2272,10 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
   background: var(--hover-color) !important;
   color: var(--main-color) !important;
 }
+
+
+.checkbox .checkbox-inner input[type=checkbox] + span::after, .checkbox .checkbox-inner input[type=checkbox]:checked + span::after {
+    -webkit-transform: none!important;
+    transform: none!important;
+    display: none
+}
