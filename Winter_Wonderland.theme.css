@@ -23,6 +23,7 @@ to change stuff like your background image and home icon and user pop out image,
   --main-color: hsla(265, 100%, 50%, 1);
   --background-blur: 0px;
   --background-brightness: 100%;
+  --home-icon: url(https://i.pinimg.com/736x/5c/df/52/5cdf522c003ac1bc8c4c151bcacee778.jpg); /* url link must be https, change it to change your home icon*/
 }
 
 body::after,
@@ -37,17 +38,6 @@ body::after,
 .radio-theme.light label,
 .radio-theme.dark label {
 	background: url(https://i.imgur.com/rK8UnE4.jpg) !important; /* url link must be https, change it to change your themes background */
-}
-
-/* lets us customize our home icon */
-.homeIcon-tEMBK1, .homeIcon-tEMBK1:hover {
-  background-image: url(https://i.pinimg.com/736x/5c/df/52/5cdf522c003ac1bc8c4c151bcacee778.jpg) !important; /* url link must be https, change it to change your home icon*/
-  color: transparent;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 15px;
-  background-size: 50px;
 }
 
 /* lets us customize our user pop outs */
