@@ -2266,45 +2266,52 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
     transform: rotate(45deg);
     margin-top: 1px;
 }
+
 .theme-dark [class*="mobileIndicator"] {
     color: var(--main-color) !important;
 }
+
 .theme-light [class*="mobileIndicator"] {
     color: var(--hover-color) !important;
-
+}
 
 [class*="theme-"] .wrapper-1Rf91z {
   background-color: rgba(0, 0, 0, 0.35);
 }
+
 [class*="theme-"] .guild-1EfMGQ.unread-qLkInr:before {
   background-color: var(--main-color);
 }
-[class*="theme-"] .homeIcon-tEMBK1:hover {
-  background: var(--hover-color);
-}
+
 [class*="theme-"] .homeButton-2Cw51C[style*="background-color"] {
     background:var(--main-color) !important;
 }
+
 [class*="theme-"] .homeButton-2Cw51C[style*="47, 49, 54"] {
     background-color:var(--main-color) !important;
 }
+
 [class*="theme-"] .container-2td-dC.selected-nT-gM3:before {
   background: var(--main-color) !important;
   animation: selectserver .5s cubic-bezier(0.22, 0.61, 0.36, 1);
   -webkit-animation: selectserver .5s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
+
 [class*="theme-"] .circleIconButton-jET_ig {
   background: rgba(0, 0, 0, 0.5);
   border-color: var(--main-color);
   color: var(--main-color);
 }
+
 [class*="theme-"] .circleIconButton-jET_ig:hover {
   border-color: var(--hover-color);
   color: var(--hover-color);
 }
+
 [class*="theme-"] .wrapper-2lTRaf {
   background: rgba(0, 0, 0, 0.5) !important;
 }
+
 [class*="theme-"] .friendsOnline-2JkivW {
   background: rgba(21, 21, 21, 0.41);
   border-radius: 25px;
