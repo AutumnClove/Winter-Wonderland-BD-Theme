@@ -2283,14 +2283,6 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
   background-color: var(--main-color);
 }
 
-[class*="theme-"] .homeButton-2Cw51C[style*="background-color"] {
-    background:var(--main-color) !important;
-}
-
-[class*="theme-"] .homeButton-2Cw51C[style*="47, 49, 54"] {
-    background-color:var(--main-color) !important;
-}
-
 .homeIcon-tEMBK1, .homeIcon-tEMBK1:hover {
   background-image: var(--home-icon) !important;
   color: transparent;
@@ -2353,4 +2345,8 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
 
 [class*="theme-"] .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9:hover {
     background-color: var(--hover-color) !important;
+}
+
+.winButtonClose-1HsbF-:hover {
+    background-color: var(--hover-color);
 }
