@@ -684,11 +684,8 @@ input:focus {
   white-space: nowrap;
 }
 
-/* "Smooth Backgrounds v2.2b" by Zerthox & Hebgbs */
-/* Make the background really clear & more smooth */
-
-DIV.theme-light .guildsWrapper-5TJh6A,
-DIV.theme-dark .guildsWrapper-5TJh6A,
+DIV.theme-light .wrapper-1Rf91z,
+DIV.theme-dark .wrapper-1Rf91z,
 DIV.theme-light .chat-3bRxxu,
 DIV.theme-dark .chat-3bRxxu,
 DIV.theme-light .content-yTz4x3,
@@ -721,7 +718,6 @@ DIV.theme-light #friends DIV.friends-table,
 DIV.theme-dark #friends DIV.friends-table {
   background-color: transparent !important;
 }
-/*--------------------------------------------------------------------*/
 
 [class*="theme-"] .applicationStore-1pNvnv {
     background-color: transparent !important;
