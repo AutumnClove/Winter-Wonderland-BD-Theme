@@ -2242,8 +2242,8 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
 }
 
 [class*="theme-"] .top-28JiJ- .itemSelected-1qLhcL {
-    border-bottom-color: var(--hover-color) !important;
-    color: var(--main-color) !important;
+  border-bottom-color: var(--hover-color) !important;
+  color: var(--main-color) !important;
 }
 
 [class*="theme-"] .top-28JiJ- .itemSelected-1qLhcL:hover {
@@ -2252,42 +2252,42 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
 }
 
 .checkbox .checkbox-inner input[type=checkbox] + span::after, .checkbox .checkbox-inner input[type=checkbox]:checked + span::after {
-    -webkit-transform: none!important;
-    transform: none!important;
-    display: none
+  -webkit-transform: none!important;
+  transform: none!important;
+  display: none
 }
 
 .selected-ML3OIq .guildInner-3DSoA4 .homeIcon-1FoKUJ {
-    background-color: transparent !important;
+  background-color: transparent !important;
 }
 
 .homeIcon-1FoKUJ:hover {
-    background: transparent;
+  background: transparent;
 }
 
 [class*="theme-"] .incomingCallInner-2VmFiR {
-    background: rgba(0,0,0,0.8) !important;
-    border-color: transparent !important;
+  background: rgba(0,0,0,0.8) !important;
+  border-color: transparent !important;
 }
 
 [class*="theme-"] .wrapper-35wsBm {
-    background: rgba(0,0,0,0.6);
-    border-color: var(--main-color);
+  background: rgba(0,0,0,0.6);
+  border-color: var(--main-color);
   }
 
 [class*="theme-"] .lookOutlined-3sRXeN.colorPrimary-3b3xI6 {
-    border-color: var(--main-color);
-    color: #fff;
+  border-color: var(--main-color);
+  color: #fff;
 }
 
 [class*="theme-"] .lookOutlined-3sRXeN.colorPrimary-3b3xI6:hover {
-    border-color: var(--hover-color);
-    color: #fff;
+  border-color: var(--hover-color);
+   color: #fff;
 }
 
 [class*="mobileIndicator"] {
-    transform: rotate(45deg);
-    margin-top: 1px;
+  transform: rotate(45deg);
+  margin-top: 1px;
 }
 
 .theme-dark [class*="mobileIndicator"] {
@@ -2354,27 +2354,44 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
 }
 
 [class*="theme-"] .friendsTable-133bsv .friendTableAddWrapper-nHHZtK .friendTableAddHeader-m9bzFr {
-    background: -webkit-gradient(linear,left top,left bottom,from(rgba(54,57,63,.3)),to(rgba(47,49,54,.3)));
-    background: transparent;
-    border-bottom: 1px solid rgba(0,0,0,.2);
+  background: -webkit-gradient(linear,left top,left bottom,from(rgba(54,57,63,.3)),to(rgba(47,49,54,.3)));
+  background: transparent;
+  border-bottom: 1px solid rgba(0,0,0,.2);
 }
 
 .lookFilled-1Gx00P.colorBrand-3pXr91:disabled {
-    background-color: var(--main-color);
+  background-color: var(--main-color);
 }
 
 [class*="theme-"] .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9 {
-    background-color: var(--main-color);
+  background-color: var(--main-color);
 }
 
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.friendsActionAdd-3Hu_65:hover {
-    background-color: var(--hover-color) !important;
+  background-color: var(--hover-color) !important;
 }
 
 [class*="theme-"] .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9:hover {
-    background-color: var(--hover-color) !important;
+  background-color: var(--hover-color) !important;
 }
 
 .winButtonClose-1HsbF-:hover {
-    background-color: var(--hover-color);
+  background-color: var(--hover-color);
+}
+
+.bg-AYqtMd {
+  height: auto;
+  position: absolute;
+  width: 100%;
+  opacity: 0 !important;
+}
+
+[class*="theme-"] .pageWrapper-1PgVDX {
+  background-color: transparent;
+  color: #fff;
+}
+
+[class*="theme-"] .wrapper-39oAo3 {
+  background-color: rgba(0,0,0,0.1);
+  color: #f6f6f7;
 }
