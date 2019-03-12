@@ -2403,3 +2403,25 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
     color: var(--hover-color) !important;
     background-color: rgba(0,0,0,0.8) !important;
 }
+
+[class*="theme-"] .addGamePopout-2RY8Ju {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.theme-dark .nowPlaying-284llR, .theme-light .nowPlaying-284llR {
+    background-color: rgba(0,0,0,0.2);
+}
+
+.default-3sgIpy, .hovered-d5PMVU {
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: all .22s ease;
+    display: block;
+    overflow: hidden;
+    pointer-events: none;
+    text-overflow: ellipsis;
+    transform-style: preserve-3d;
+    transition: all .22s ease;
+    white-space: nowrap;
+    width: 100%;
+    padding-bottom: 5px;
+}
