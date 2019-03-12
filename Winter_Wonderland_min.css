@@ -2403,10 +2403,10 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
     color: var(--main-color);
 }
 
-div.DevilBro-textscroll {
+.DevilBro-textscroll {
     left: 0px !important;
     position: relative !important;
     white-space: nowrap !important;
     display: inline !important;
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.8) !important;
 }
