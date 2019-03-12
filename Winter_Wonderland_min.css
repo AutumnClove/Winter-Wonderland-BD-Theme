@@ -2400,13 +2400,11 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
 
 #app-mount .userPopout-3XzG_A .avatarHintInner-Dco91E, #app-mount .userPopout-3XzG_A .headerText-2sdzFM .nameTag-m8r81H, #app-mount .userPopout-3XzG_A .header-2BwW8b .creationDate, #app-mount .userPopout-3XzG_A .header-2BwW8b .joinedAtDate.textRow-19NEd_, #app-mount .userPopout-3XzG_A .headerTagNoNickname-ENx6no {
     text-shadow: 0 1px 2px #000, 1px 0 1px #000, 0 0 2px #000;
-    color: var(--main-color);
+    color: var(--main-color) !important;
 }
 
-.DevilBro-textscroll {
-    left: 0px !important;
-    position: relative !important;
-    white-space: nowrap !important;
-    display: inline !important;
-    background-color: rgba(0,0,0,0.8) !important;
+#app-mount .userPopout-3XzG_A .avatarHintInner-Dco91E, #app-mount .userPopout-3XzG_A .headerText-2sdzFM .nameTag-m8r81H, #app-mount .userPopout-3XzG_A .header-2BwW8b .creationDate, #app-mount .userPopout-3XzG_A .header-2BwW8b .joinedAtDate.textRow-19NEd_, #app-mount .userPopout-3XzG_A .headerTagNoNickname-ENx6no {
+    text-shadow: 0 1px 2px #000, 1px 0 1px #000, 0 0 2px #000;
+    color: var(--color);
+    background-color: rgba(0,0,0,0.9) !important;
 }
