@@ -1,3 +1,26 @@
+body::after,
+.backdrop-1ocfXc,
+.userPopout-11hFKo::before,
+.userPopout-3XzG_A::before,
+.root-SR8cQa::before,
+#pubs-container::before,
+.auth-background,
+.auth-tiling-bg,
+.invite-modal .invite-splash,
+.radio-theme.light label,
+.radio-theme.dark label {
+  background: var(--theme-background) !important; 
+}
+
+.userPopout-3XzG_A {
+  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), var(--user-popout-image) center/cover !important; 
+}
+
+.botTagRegular-2HEhHi{
+  background: var(--bot-tag-background-color) !important;
+  color: var(--bot-tag-text-color) !important;
+}
+
 /* emoji picker stuff */
 
 .emojiPicker-3m1S-j {
@@ -2284,13 +2307,18 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
 }
 
 .homeIcon-tEMBK1, .homeIcon-tEMBK1:hover {
-  background-image: var(--home-icon) !important;
+  background-image: var(--home-icon-image) !important;
   color: transparent;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-repeat: no-repeat;
   border-radius: 15px;
   background-size: 50px;
+  background-color: transparent !important;
+}
+
+[class*="theme-"] .homeButton-2Cw51C[style*="background-color"] {
+    background: transparent !important; 
 }
 
 [class*="theme-"] .container-2td-dC.selected-nT-gM3:before {

@@ -23,30 +23,9 @@ to change stuff like your background image and home icon and user pop out image,
   --main-color: hsla(265, 100%, 50%, 1);
   --background-blur: 0px;
   --background-brightness: 100%;
-  --home-icon: url(https://i.pinimg.com/736x/5c/df/52/5cdf522c003ac1bc8c4c151bcacee778.jpg); /* url link must be https, change it to change your home icon*/
-}
-
-body::after,
-.backdrop-1ocfXc,
-.userPopout-11hFKo::before,
-.userPopout-3XzG_A::before,
-.root-SR8cQa::before,
-#pubs-container::before,
-.auth-background,
-.auth-tiling-bg,
-.invite-modal .invite-splash,
-.radio-theme.light label,
-.radio-theme.dark label {
-	background: url(https://i.imgur.com/rK8UnE4.jpg) !important; /* url link must be https, change it to change your themes background */
-}
-
-/* lets us customize our user pop outs */
-.userPopout-3XzG_A {
-  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://wallpapercave.com/wp/LUIiAJe.jpg) center/cover !important; /* url link must be https, change it to change your user pop-outs*/
-}
-
-/* Custom Bot tag colors */
-.botTagRegular-2HEhHi{
-  background: var(--hover-color) !important;
-  color: var(--main-color) !important;
+  --home-icon-image: url(https://i.pinimg.com/736x/5c/df/52/5cdf522c003ac1bc8c4c151bcacee778.jpg); /* url link must be https, change it to change your home icon*/
+  --theme-background: url(https://i.imgur.com/rK8UnE4.jpg); /* url link must be https, change it to change your themes background */
+  --user-popout-image: url(https://wallpapercave.com/wp/LUIiAJe.jpg); /* url link must be https, change it to change your user pop-outs*/
+  --bot-tag-text-color: var(--main-color);
+  --bot-tag-background-color: var(--hover-color);
 }
