@@ -2391,20 +2391,15 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
 
 .pinnedBanner-31szAF {
     background-color: rgba(0,0,0,0.8) !important;
-    position: absolute;
-    top: -87px;
-    width: 240px;
-    z-index: 1;
+    position: absolute !important;
+    top: -87px !important;
+    width: 240px !important;
+    z-index: 1 !important;
     padding-left: 12px !important;
 }
 
 #app-mount .userPopout-3XzG_A .avatarHintInner-Dco91E, #app-mount .userPopout-3XzG_A .headerText-2sdzFM .nameTag-m8r81H, #app-mount .userPopout-3XzG_A .header-2BwW8b .creationDate, #app-mount .userPopout-3XzG_A .header-2BwW8b .joinedAtDate.textRow-19NEd_, #app-mount .userPopout-3XzG_A .headerTagNoNickname-ENx6no {
-    text-shadow: 0 1px 2px #000, 1px 0 1px #000, 0 0 2px #000;
-    color: var(--main-color) !important;
-}
-
-#app-mount .userPopout-3XzG_A .avatarHintInner-Dco91E, #app-mount .userPopout-3XzG_A .headerText-2sdzFM .nameTag-m8r81H, #app-mount .userPopout-3XzG_A .header-2BwW8b .creationDate, #app-mount .userPopout-3XzG_A .header-2BwW8b .joinedAtDate.textRow-19NEd_, #app-mount .userPopout-3XzG_A .headerTagNoNickname-ENx6no {
-    text-shadow: 0 1px 2px #000, 1px 0 1px #000, 0 0 2px #000;
-    color: var(--color);
-    background-color: rgba(0,0,0,0.9) !important;
+    text-shadow: 0 1px 2px #000, 1px 0 1px #000, 0 0 2px #000 !important;
+    color: var(--hover-color) !important;
+    background-color: rgba(0,0,0,0.8) !important;
 }
