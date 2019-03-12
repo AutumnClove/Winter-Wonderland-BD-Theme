@@ -2392,3 +2392,11 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
   background-color: rgba(0,0,0,0.1);
   color: #f6f6f7;
 }
+
+.pinnedBanner-31szAF {
+    background-color: transparent;
+    position: absolute;
+    top: -87px;
+    width: 240px;
+    z-index: 1;
+}
