@@ -23,6 +23,7 @@ to change stuff like your background image and home icon and user pop out image,
   --main-color: hsla(265, 100%, 50%, 1);
   --background-blur: 0px;
   --background-brightness: 100%;
+  --background-size: 1920px 1080px;
   --home-icon-image: url(https://i.pinimg.com/736x/5c/df/52/5cdf522c003ac1bc8c4c151bcacee778.jpg); /* url link must be https, change it to change your home icon*/
   --theme-background: url(https://i.imgur.com/rK8UnE4.jpg); /* url link must be https, change it to change your themes background */
   --user-popout-image: url(https://wallpapercave.com/wp/LUIiAJe.jpg); /* url link must be https, change it to change your user pop-outs*/

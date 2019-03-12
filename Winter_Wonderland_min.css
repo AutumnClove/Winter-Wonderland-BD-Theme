@@ -9,7 +9,8 @@ body::after,
 .invite-modal .invite-splash,
 .radio-theme.light label,
 .radio-theme.dark label {
-  background: var(--theme-background) !important; 
+  background: var(--theme-background) !important;
+  background-size: var(--background-size) !important;
 }
 
 .userPopout-3XzG_A {
