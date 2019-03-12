@@ -2287,11 +2287,7 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
   margin-top: 1px;
 }
 
-.theme-dark [class*="mobileIndicator"] {
-    color: var(--main-color) !important;
-}
-
-.theme-light [class*="mobileIndicator"] {
+[class*="theme-"] [class*="mobileIndicator"] path {
     color: var(--hover-color) !important;
 }
 
