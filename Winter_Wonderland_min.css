@@ -2432,3 +2432,9 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
     background-color: rgba(0,0,0,0.1);
     box-shadow: 0 0 0 rgba(32,34,37,.15);
 }
+
+[class*="theme-"] .tile-QA_yMc:hover {
+    -webkit-box-shadow: 0 9px 20px 0 rgba(0,0,0,.32);
+    background-color: rgba(0,0,0,0.5);
+    box-shadow: 0 9px 20px 0 rgba(0,0,0,.32);
+}
