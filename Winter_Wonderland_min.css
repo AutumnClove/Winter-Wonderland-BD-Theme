@@ -802,7 +802,7 @@ DIV[class*="theme-"] .guilds-wrapper .guildsWrapper-5TJh6A, DIV[class*="theme-"]
 }
 
 #app-mount .headerSpotify-zpWxgT+.body-3iLsc4, #app-mount .headerSpotify-zpWxgT~.footer-1fjuF6 {
-  background: transparent; !important;
+  background: transparent !important;
 }
 
 #app-mount .headerSpotify-zpWxgT~div, .headerSpotify-zpWxgT {
@@ -901,8 +901,6 @@ div[class*="flex-"][class*="title-"], #friends div[class*="headerBar"] {
   color: #fff;
 }
 
-.flexCenter-3_1bcw {}
-
 .justifyCenter-3D2jYp {
   -ms-flex-pack: center;
   -webkit-box-pack: center;
@@ -924,8 +922,6 @@ div[class*="flex-"][class*="title-"], #friends div[class*="headerBar"] {
 a, button, div, input, select, span, textarea {
   outline: 0;
 }
-
-element.style {}
 
 .lookInverted-2D7oAl.colorGreen-29iAKY {
   background-color: transparent !important;
@@ -1529,7 +1525,7 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
 }
 
 [class*="theme-"] .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV {
-  background-color: var(--main-color)
+  background-color: var(--main-color);
   color: #fff;
 }
 
@@ -2244,7 +2240,7 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
 }
 
 [class*="theme-"] .top-28JiJ- .itemSelected-1qLhcL:hover {
-  border-bottom-color: var(--main-color) !important
+  border-bottom-color: var(--main-color) !important;
   color: var(--hover-color) !important;
 }
 
