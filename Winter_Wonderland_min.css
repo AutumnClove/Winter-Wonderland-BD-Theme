@@ -736,25 +736,6 @@
 .wrapper-232cHJ {
 .wrapper-3jrx9n {
 .wrapperDefaultText-3M3F1R:hover, .wrapperDefaultVoice-2ud9mj:hover, .wrapperHoveredText-1PA_Uk:hover, .wrapperHoveredVoice-3tbfNN:hover, .wrapperLockedText-Dsondf:hover, .wrapperLockedVoice-1XZJmE:hover, .wrapperMutedText-34VhKk:hover, .wrapperMutedVoice-2BiLWu:hover, .wrapperUnreadText-1MykVG:hover, .wrapperUnreadVoice-13F9Gg:hover {
-/* an option this is what makes it changes colors */
-/* color of the hover in the above menu so when your mouse is on */
-/* emoji picker stuff */
-/* end of emoji stuff */
-/* end of upload module fix */
-/* end of vc stuff */
-/* home icon */
-/* hover shadow in dms */
-/* hover shadow in servers */
-/* if you want a lighter or darker context menu(that's the menu that pop's up */
-/* on right click) just change 1.0 down .1 until you reach what you want eg */
-/* rgba(0,0,0,0.5) or something */
-/* Some vc stuff */
-/* the hover controller for the channels inside of servers */
-/* the little notifaciton next to guilds for unreads */
-/* upload module fix */
-/**/
-/*------------------------------------------------------------------------*/
-/*Overlay Notifications Section*/
 [calss*="theme-"] .colorPickerCustom-2CWBn2 {
 [class*="autocomplete-"] [class*="selectorSelected-"] {
 [class*="card"] {
