@@ -2592,3 +2592,11 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
     flex-shrink: 0;
     opacity: .75;
 }
+
+[class*="theme-"] .memberListItem-vHCzSI:hover {
+    background-color: var(--hover-color);
+}
+
+[class*="theme-"].enabled-5QKLzu:hover {
+    background-color: var(--hover-color);
+}
