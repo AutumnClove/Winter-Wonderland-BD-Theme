@@ -1027,7 +1027,7 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
 }
 
 .lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover {
-  border-color: var(--main-color);
+  border-color: var(--hover-color);
   text-shadow: 0 0 3px;
 }
 
@@ -2601,4 +2601,8 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
 [class*="theme-"] .enabled-5QKLzu:hover {
     background-color: var(--hover-color);
     text-shadow: 0 0 3px;
+}
+
+.theme-dark .overlappingBorder-3aFng4, .theme-light .overlappingBorder-3aFng4 {
+    border-color: var(--main-color);
 }
