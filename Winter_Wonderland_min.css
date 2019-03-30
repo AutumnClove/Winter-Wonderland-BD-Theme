@@ -2595,8 +2595,10 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
 
 [class*="theme-"] .memberListItem-vHCzSI:hover {
     background-color: var(--hover-color);
+    text-shadow: 0 0 3px;
 }
 
-[class*="theme-"].enabled-5QKLzu:hover {
+[class*="theme-"] .enabled-5QKLzu:hover {
     background-color: var(--hover-color);
+    text-shadow: 0 0 3px;
 }
