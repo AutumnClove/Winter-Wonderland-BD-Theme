@@ -2447,7 +2447,7 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
     background-color: rgba(0,0,0,0.1);
 }
 
-[class*="theme-"] .unwrapped-37iUtM.clickable-nnkAZy:hover, .theme-dark .wrapped-15rg6t {
+[class*="theme-"] .unwrapped-37iUtM.clickable-nnkAZy:hover, [class*="theme-"] .wrapped-15rg6t {
     background-color: var(--main-color);
 }
 
@@ -2501,4 +2501,19 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
 .lookFilled-1Gx00P.colorWhite-rEQuAQ:hover {
     background-color: var(--hover-color);
     color: #4f545c;
+}
+
+[class*="theme-"] .unwrapped-37iUtM {
+    background-color: var(--main-color);
+}
+
+[class*="theme-"] .unwrapped-37iUtM:hover {
+    background-color: var(--hover-color);
+}
+
+[class*="theme-"] .card-GqTca8 {
+    width: 400px;
+    height: 82px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
