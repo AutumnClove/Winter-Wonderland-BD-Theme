@@ -2513,7 +2513,7 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
 
 [class*="theme-"] .empty-hejAOj:hover {
     background-color: transparent;
-    transition: .15s var(--hover-color) ease-in-out;
+    transition:  var(--hover-color) .15s ease-in-out;
 }
 
 [class*="theme-"] .popout-3G62UL {
