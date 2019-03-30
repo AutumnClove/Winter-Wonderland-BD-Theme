@@ -2439,7 +2439,7 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
     box-shadow: 0 9px 20px 0 rgba(0,0,0,.32);
 }
 
-[class*="theme-"].activityFeed-1C0EmJ {
+[class*="theme-"] .activityFeed-1C0EmJ {
     background-color: transparent;
 }
 
@@ -2480,6 +2480,25 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
     color: #fff;
 }
 
+.buttonColor-1agP3J:hover {
+    background-color: var(--hover-color);
+    color: #fff;
+}
+
 .card-3EIh8J:hover .shareButton-3w0M74 {
     opacity: .8;
+}
+
+[class*="theme-"] .multipleIconWrapper-2TXVB4, [class*="theme-"] .section-3TvauS {
+    background-color: rgba(0,0,0,.75);
+}
+
+.lookFilled-1Gx00P.colorWhite-rEQuAQ {
+    background-color: var(--main-color);
+    color: #4f545c;
+}
+
+.lookFilled-1Gx00P.colorWhite-rEQuAQ:hover {
+    background-color: var(--hover-color);
+    color: #4f545c;
 }
