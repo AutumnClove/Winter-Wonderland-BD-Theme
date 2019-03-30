@@ -2572,3 +2572,8 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
     background-color: var(--hover-color);
     text-shadow: 0 0 3px;
 }
+
+.card-GqTca8 {
+    margin-bottom: 16px;
+    background-color: transparent !important;
+}
