@@ -2512,6 +2512,7 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
 }
 
 [class*="theme-"] .empty-hejAOj:hover {
+    background-color: var(--hover-color);
     transition:  var(--hover-color) .15s ease-in-out;
 }
 
