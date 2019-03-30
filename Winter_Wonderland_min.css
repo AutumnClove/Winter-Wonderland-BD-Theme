@@ -2438,3 +2438,48 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
     background-color: rgba(0,0,0,0.5);
     box-shadow: 0 9px 20px 0 rgba(0,0,0,.32);
 }
+
+[class*="theme-"].activityFeed-1C0EmJ {
+    background-color: transparent;
+}
+
+[class*="theme-"] .outer-2IVh5n {
+    background-color: rgba(0,0,0,0.1);
+}
+
+[class*="theme-"] .unwrapped-37iUtM.clickable-nnkAZy:hover, .theme-dark .wrapped-15rg6t {
+    background-color: var(--main-color);
+}
+
+[class*="theme-"] .wrapped-15rg6t.clickable-nnkAZy:hover {
+    background-color: var(--hover-color);
+}
+
+[class*="theme-"] .empty-hejAOj {
+    background-color: var(--main-color);
+}
+
+[class*="theme-"] .popout-3G62UL {
+    -webkit-box-shadow: 0 8px 16px rgba(0,0,0,.24);
+    background-color: rgba(0,0,0,0.9);
+    box-shadow: 0 8px 16px rgba(0,0,0,.24);
+}
+
+[class*="theme-"] .popoutContainer-3WC9HR:hover {
+    background-color: var(--hover-color);
+    margin: 0 -1px;
+    padding: 16px 17px;
+}
+
+[class*="theme-"] .inset-GQDQYw {
+    background-color: rgba(0,0,0,0.1);
+}
+
+.buttonColor-1agP3J {
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+.card-3EIh8J:hover .shareButton-3w0M74 {
+    opacity: .8;
+}
