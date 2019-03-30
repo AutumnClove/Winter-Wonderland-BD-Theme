@@ -2511,7 +2511,7 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
     background-color: var(--hover-color);
 }
 
-[class*="theme-"] .card-GqTca8 {
+.card-GqTca8 {
     width: 400px;
     height: 82px;
     padding-left: 10px;
