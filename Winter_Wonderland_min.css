@@ -1167,6 +1167,26 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
   width: 2px;
 }
 
+.isMentionedCozy-3isp7y .mention:hover, span.wrapperHover-1GktnT.wrapper-3WhCwL:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: var(--main-color) !important;
+    text-decoration: none !important;
+    text-shadow: 0 0 3px;
+}
+
+.itemDefault-3Jdr52.item-PXvHYJ.notSelected-1N1G5p.tabBarItem-1b8RUP:hover {
+    background-color: transparent !important;
+    border-color: var(--hover-color) !important;
+    color: var(--hover-color) !important;
+    text-shadow: 0 0 3px;
+}
+
+.contents-18-Yxp {
+    color: #fff !important;
+    text-shadow: 0 0 3px !important;
+}
+
 [class*="theme-"] .markup-2BOw-j pre {
   background: rgba(0, 0, 0, 0.5) !important;
 }
@@ -1621,13 +1641,6 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
     background-color: var(--hover-color);
     color: #fff;
     text-shadow: 0 0 3px;
-}
-
-element.style {
-    opacity: 0.95;
-    background-color: rgba(0,0,0,0.6);
-    z-index: 1000;
-    transform: translateZ(0px);
 }
 
 .downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236 .downloadButton-1bWXpg {
@@ -2450,6 +2463,17 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
     background-color: rgba(0,0,0,0.8) !important;
 }
 
+.nameTag-3p0yK-:hover {
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    line-height: 17px;
+    text-shadow: 0 0 3px;
+}
+
 [class*="theme-"] .addGamePopout-2RY8Ju {
     background-color: rgba(0,0,0,0.8);
 }
@@ -2499,7 +2523,7 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
 }
 
 [class*="theme-"] .unwrapped-37iUtM.clickable-nnkAZy:hover, [class*="theme-"] .wrapped-15rg6t {
-    background-color: var(--hover-color);
+    background-color: rgba(0,0,0,0.1);
     text-shadow: 0 0 3px;
 }
 
@@ -2574,9 +2598,25 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
     text-shadow: 0 0 3px;
 }
 
-.card-GqTca8 {
-    margin-bottom: 16px;
-    background-color: transparent !important;
+aside .card-GqTca8:first-of-type { 
+    background-color: rgba(0,0,0,0.1) !important;
+    border: 3px solid;
+    height: 100px;
+    width: 103%;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 5px;
+    padding-bottom: 5px; /* to-do make this work right */
+}
+
+.card-GqTca8 { 
+    background-color: rgba(0,0,0,0.1) !important;
+    opacity: 1;
+}
+
+.card-GqTca8:hover { 
+    background-color: rgba(0,0,0,0.5) !important;
+    opacity: 1;
 }
 
 .searchBar-2_Yu-C {
@@ -2605,4 +2645,11 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
 
 .theme-dark .overlappingBorder-3aFng4, .theme-light .overlappingBorder-3aFng4 {
     border-color: var(--main-color);
+}
+
+.backdrop-1wrmKB {
+    opacity: 1;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 1000;
+    transform: translateZ(0px);
 }
