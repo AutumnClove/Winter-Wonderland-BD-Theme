@@ -28,5 +28,7 @@ Easy!
 ### 7) press ctrl + r
 ### 8) open settings and enable the theme
 
+*Please make sure you have [better discord](https://github.com/rauenzi/BetterDiscordApp/releases) &amp; [discord](https://discordapp.com/)*
+
 # Need a visual guide?
 ![Installing Guide](https://cdn.discordapp.com/attachments/84617750827261952/312679447579066368/unknown.png?raw=true)
