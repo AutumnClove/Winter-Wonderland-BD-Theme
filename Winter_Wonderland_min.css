@@ -791,10 +791,22 @@ DIV[class*="theme-"] .guilds-wrapper .guildsWrapper-5TJh6A, DIV[class*="theme-"]
   text-shadow: 0 0 3px;
 }
 
+/*[class*="theme-"] .member-3W1lQa.popout-open .content-OzHfo4 .activity-1IYsbk, [class*="theme-"] .member-3W1lQa.popout-open .content-OzHfo4 .activity-1IYsbk strong {
+    color: var(--main-color);
+}
+
+[class*="theme-"] .member-3W1lQa.popout-open .content-OzHfo4 .activity-1IYsbk, [class*="theme-"] .member-3W1lQa.popout-open .content-OzHfo4 .activity-1IYsbk strong:hover {
+    color: var(--hover-color);
+}
+
+[class*="theme-"] .activity-1IYsbk:hover {
+  color: var(--hover-color) !important;
+  text-shadow: 0 0 3px
+}
+
 [class*="theme-"] .activity-1IYsbk {
   color: var(--main-color) !important;
-  font-weight: 700 !important;
-}
+} */
 
 .private-channels .channel .channel-activity-text {
   overflow: hidden;
@@ -1404,7 +1416,7 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
   height: 18px;
   opacity: 0;
   position: absolute;
-  right: -2px;
+  right: 2px;
   top: 4px;
   transition: all .1s linear;
   width: 18px;
@@ -2027,7 +2039,7 @@ DIV[class*="theme-"] DIV.flex-spacer.flex-horizontal {
 }
 
 [class*="theme-"] .member-3W1lQa:hover .content-OzHfo4 {
-  background-color: var(--hover-color) !important;
+  background-color: hsla(216, 4%, 74%, .1) !important
   color: #fff;
   text-shadow: 0 0 3px;
 }
@@ -2609,6 +2621,10 @@ aside .card-GqTca8:first-of-type {
     padding-bottom: 5px; /* to-do make this work right */
 }
 
+.body-3YPTZ5 { 
+    display: none;
+}
+
 .card-GqTca8 { 
     background-color: rgba(0,0,0,0.1) !important;
     opacity: 1;
@@ -2652,4 +2668,15 @@ aside .card-GqTca8:first-of-type {
     background-color: rgba(0,0,0,0.8);
     z-index: 1000;
     transform: translateZ(0px);
+}
+
+[class*="theme-"] .bannedUser-1IalTM {
+    -webkit-box-shadow: 0 1px 0 0 hsla(0,0%,100%,.04);
+    box-shadow: 0 1px 0 0 hsla(0,0%,100%,.04);
+    padding: 10px;
+}
+
+[class*="theme-"] .member-3W1lQa.popout-open .content-OzHfo4 {
+    background-color: rgba(0,0,0,0.65) !important;
+    text-shadow: 0 0 3px !important;
 }
