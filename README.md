@@ -2,9 +2,10 @@
 A mystical, purple theme with customizable colors &amp; background! Based on Clearvision Amethyst.
 Huge thanks to @Lost Illusion#8332, Danielle#8747 &amp; @Aleana#2643 for their continued help and support.
 Winter Wonderland bd theme is a theme for a [discord](https://discordapp.com/) plugin called [better discord](https://github.com/rauenzi/BetterDiscordApp/releases) and is not resposible for anything that may happen to your account for using this plugin. 
-# Clean look
+
 **Only works in dark mode, light mode isn't supported, and will most likely have issues.**
-![Winter Wonderland](https://github.com/AutumnClove/Winter-Wonderland-BD-Theme/blob/master/Sample%20Pics/Winte%20Wonder%20Land.png?raw=true)
+### Clean look
+![Winter Wonderland](https://github.com/AutumnClove/Winter-Wonderland-BD-Theme/blob/master/Sample%20Pics/Winter%20Wonderland.png?raw=true)
 ### Clean emoji picker
 ![Emoji Picker](https://github.com/AutumnClove/Winter-Wonderland-BD-Theme/blob/master/Sample%20Pics/Emoji%20Picker.png?raw=true)
 ### Special Spotify user popouts
