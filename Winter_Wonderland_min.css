@@ -2375,6 +2375,8 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
   background-size: 50px;
   background-color: transparent !important;
   text-shadow: 0 0 3px;
+  height: 50px
+  width: 50px;
 }
 
 [class*="theme-"] .homeButton-2Cw51C[style*="background-color"] {
@@ -2734,7 +2736,12 @@ aside .card-GqTca8:first-of-type {
 }
 
 .item-2hkk8m {
-    background-color: var(--main-color);
+    background-color: var(--main-color) !important;
+    border-radius: 0 4px 4px 0;
+    display: block;
+    margin-left: -4px;
+    position: absolute;
+    width: 8px;
 }
 
 .theme-dark .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover, .theme-dark .topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover {
