@@ -2729,14 +2729,18 @@ aside .card-GqTca8:first-of-type {
     color: var(--hover-color);
 }
 
-[class*="theme-"] .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover, [class*="theme-"] .topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover {
-    background-color: var(--main-color);
-}
-
 [class*="theme-"] .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, [class*="theme-"] .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover, [class*="theme-"] .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, [class*="theme-"] .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover {
     background-color: var(--main-color);
 }
 
 .item-2hkk8m {
     background-color: var(--main-color) !important;
+}
+
+.theme-dark .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover, .theme-dark .topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover {
+    background-color: var(--hover-color);
+}
+
+.theme-dark .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .theme-dark .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover, .theme-dark .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .theme-dark .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover {
+    background-color: var(--main-color);
 }
