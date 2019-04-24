@@ -2680,3 +2680,50 @@ aside .card-GqTca8:first-of-type {
     background-color: rgba(0,0,0,0.65) !important;
     text-shadow: 0 0 3px !important;
 }
+
+
+[class*="theme-"] .container-1r6BKw {
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 1.5px 0 rgba(0,0,0,.05), 0 2px 0 rgba(0,0,0,.05);
+    background: transparent;
+    box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 1.5px 0 rgba(0,0,0,.05), 0 2px 0 rgba(0,0,0,.05);
+    color: #b9bbbe;
+}
+
+[class*="theme-"] .children-19S4PO:after {
+    display: none
+}
+
+[class*="theme-"]-3uETC4.container-2XeR5Z {
+    background-color: rgba(0,0,0,0.65);
+}
+
+[class*="theme-"] .title-3qD0b- {
+    background-color: transparent;
+}
+
+[class*="theme-"] [class*="clickable-"]:hover .icon-22AiRD {
+    color: var(--hover-color);
+    text-shadow: 0 0 3px
+}
+
+.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU, .theme-light .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .theme-light .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU {
+    background-color: var(--main-color);
+}
+
+.theme-dark .wrapper-1ucjTd:hover .content-3at_AU, .theme-light .wrapper-1ucjTd:hover .content-3at_AU {
+    background-color: var(--hover-color);
+    text-shadow: 0 0 3px
+}
+
+.name-IbjUBS:hover {
+    -ms-flex: 1 1 auto;
+    -webkit-box-flex: 1;
+    flex: 1 1 auto;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: var(--hover-color);
