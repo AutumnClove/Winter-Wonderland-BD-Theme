@@ -2707,7 +2707,7 @@ aside .card-GqTca8:first-of-type {
 }
 
 .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU, .theme-light .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .theme-light .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU {
-    background-color: rgba(0,0,0,0.1);
+    background-color: var(--main-color);
 }
 
 .theme-dark .wrapper-1ucjTd:hover .content-3at_AU, .theme-light .wrapper-1ucjTd:hover .content-3at_AU {
@@ -2737,3 +2737,6 @@ aside .card-GqTca8:first-of-type {
     background-color: var(--main-color);
 }
 
+.item-2hkk8m {
+    background-color: var(--main-color) !important;
+}
