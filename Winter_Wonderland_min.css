@@ -2707,7 +2707,7 @@ aside .card-GqTca8:first-of-type {
 }
 
 .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU, .theme-light .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .theme-light .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU {
-    background-color: var(--main-color);
+    background-color: rgba(0,0,0,0.1);
 }
 
 .theme-dark .wrapper-1ucjTd:hover .content-3at_AU, .theme-light .wrapper-1ucjTd:hover .content-3at_AU {
@@ -2727,3 +2727,13 @@ aside .card-GqTca8:first-of-type {
     text-transform: uppercase;
     white-space: nowrap;
     color: var(--hover-color);
+}
+
+[class*="theme-"] .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover, [class*="theme-"] .topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover {
+    background-color: var(--main-color);
+}
+
+[class*="theme-"] .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, [class*="theme-"] .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover, [class*="theme-"] .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, [class*="theme-"] .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover {
+    background-color: var(--main-color);
+}
+
