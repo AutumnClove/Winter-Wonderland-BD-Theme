@@ -2375,7 +2375,7 @@ DIV[class*="flex-"][class*="title-"], #friends DIV[class*="headerBar"] {
   background-size: 50px;
   background-color: transparent !important;
   text-shadow: 0 0 3px;
-  height: 50px
+  height: 50px;
   width: 50px;
 }
 
